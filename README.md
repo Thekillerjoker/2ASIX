@@ -13,7 +13,14 @@ En aquesta carpeta hi ha els apunts generals i documentació.
 📂 [`Practiques-2gn-ASIX/`](./Practiques-2gn-ASIX/)
 Cada subcarpeta correspon a una assignatura del curs:
 - 📂 [`IAW/`](./Practiques-2gn-ASIX/IAW/) → **Implementacio Aplicacions Web** 📝🌐
+  - Configuració i instal·lació de gestors de continguts i gestio de bases de dades.
+  - Desenvolupament i integració de guions en servidor.
+  - Desplegament d'aplicacións web sobre servidors HTTP.
 - 📂 [`SXI/`](./Practiques-2gn-ASIX/SXI/)  → **Serveis en Xarxa** 🌐 🖥️🐧
+  - Deplyar i administrar serveis basics de xarxa (DHCP, DNS, FTP, SSH).
+  - Configurar i gestionar servidors de correu, proxies i accés remot segur (VPN).
+  - Implementar mecanismes de seguretat, certificats SSL/TLS i control d'accés en els serveis de xarxa.
+c
 ---
 
 ## ℹ️ Informació

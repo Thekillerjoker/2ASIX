@@ -20,7 +20,9 @@ Cada subcarpeta correspon a una assignatura del curs:
   - Deplyar i administrar serveis basics de xarxa (DHCP, DNS, FTP, SSH).
   - Configurar i gestionar servidors de correu, proxies i accés remot segur (VPN).
   - Implementar mecanismes de seguretat, certificats SSL/TLS i control d'accés en els serveis de xarxa.
-c
+- 📂 [`ASO/`](./Practiques-2gn-ASIX/ASO/) → **Aministració de Sistemes Opèratius** 🖥️🐧
+  
+l
 ---
 
 ## ℹ️ Informació

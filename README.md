@@ -3,14 +3,17 @@ Benvingut/da al meu repositori de **Administració de Sistemes Informàtics en X
 Aquí trobaràs tant els **apunts** com les **pràctiques** de les diferents assignatures del cicle.
 -----
 # 📝 Apunts:
-
+📂 [`Apunts-2gn-ASIX/`](./Apunts-2gn-ASIX/)
 En aquesta carpeta hi ha els apunts generals i documentació.
 ---
 
 ## 💻 Pràctiques:
 
-Cada subcarpeta correspon a una assignatura del curs:
 
+📂 [`Practiques-2gn-ASIX/`](./Practiques-2gn-ASIX/)
+Cada subcarpeta correspon a una assignatura del curs:
+- 📂 [`IAW/`](./Practiques-2gn-ASIX/IAW/) → **Implementacio Aplicacions Web** 📝🌐
+- 📂 [`SXI/`](./Practiques-2gn-ASIX/SXI/)  → **Serveis en Xarxa** 🌐 🖥️🐧
 ---
 
 ## ℹ️ Informació

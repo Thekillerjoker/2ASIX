@@ -24,8 +24,8 @@ Cada subcarpeta correspon a una assignatura del curs:
   
 - 📂 [`FM/`](./Practiques-2gn-ASIX/FM/)  → **Fonaments de Maquinari**
 
-
-
+- 📂 [`SAD/`](./Practiques-2gn-ASIX/SAD/) → **Seguretat i Alta Disponibilitat**
+s
 ---
 
 ## ℹ️ Informació

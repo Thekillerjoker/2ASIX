@@ -25,21 +25,21 @@ Completa la taula següent.
 
 | Persona | Departament | Funció / responsabilitat | Necessita privilegis especials? Per què? |
 | ------- | ----------- | ------------------------ | ---------------------------------------- |
-|Aina Ciurans|Direcció|                          |                                          |
-|Rut Tronil|Direcció|                          |                                          |
-|Dídac Gassó|Administració|                          |                                          |
-|Laia Macias|Administració|                          |                                          |
-|Estel Birosta|Suport tècnic|                          |                                          |
-|Aina Zuriguel|Suport tècninc|                          |                                          |
-|Lluïsa Richart|Suport tècnic|                          |                                          |
-|Roser Alberch|Producció musical|                          |                                          |
-|Guillem Adella|Producció musical|-------------------|----------------------------------------------|
-|Meritxell Reglat|Producció musical|-------------------|----------------------------------------------|
-|Alícia Monclús|Produccció musical|-------------------|----------------------------------------------|
-|Carles Molins|Producció musical|-------------------|----------------------------------------------|
-|Eulàlia Galcera|Producció musical|-------------------|------------------------------------|
-|Talia Costas|Informàtica|-------------------|----------------------------------------------|
-|Alex Soriano|Informàtica|-------------------|----------------------------------------------|
+|Aina Ciurans|Direcció|Usuari estàndard|                                          |
+|Rut Tronil|Direcció|Usuari estàndard|                                          |
+|Dídac Gassó|Administració|Usuari estàndard|                                          |
+|Laia Macias|Administració|Responsable de departament|                                          |
+|Estel Birosta|Suport tècnic|Usuari estàndard|                                          |
+|Aina Zuriguel|Suport tècninc|Usuari estàndard|                                          |
+|Lluïsa Richart|Suport tècnic|Responsable de departamentd|                                          |
+|Roser Alberch|Producció musical|Usuari estàndard|                                          |
+|Guillem Adella|Producció musical|Usuari estàndard|----------------------------------------------|
+|Meritxell Reglat|Producció musical|Responsable de departament|----------------------------------------------|
+|Alícia Monclús|Produccció musical|Usuari estàndard|----------------------------------------------|
+|Carles Molins|Producció musical|Usuari estàndard|----------------------------------------------|
+|Eulàlia Galcera|Producció musical|Usuari estàndard|------------------------------------|
+|Talia Costas|Informàtica|Administrador del sistema|----------------------------------------------|
+|Alex Soriano|Informàtica|Administrador del sistema|----------------------------------------------|
 
 ### 1.1. Reflexió
 

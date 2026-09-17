@@ -22,7 +22,10 @@ Cada subcarpeta correspon a una assignatura del curs:
   - Implementar mecanismes de seguretat, certificats SSL/TLS i control d'accés en els serveis de xarxa.
 - 📂 [`ASO/`](./Practiques-2gn-ASIX/ASO/) → **Aministració de Sistemes Opèratius** 🖥️🐧
   
-l
+- 📂 [`FM/`](./Practiques-2gn-ASIX/FM/)  → **Fonaments de Maquinari**
+
+
+
 ---
 
 ## ℹ️ Informació

@@ -79,3 +79,11 @@ A part d'aquests departaments, cal tenir en compte que en Pere Espinalt i la Neu
     ├── configuracions
     └── inventari
 ```
+---
+
+## ***Estructrua dels permisos***:
+- GRP_admin
+    - Didac
+    - grp_resp_Adm_
+- grp_Reps_Adm_
+    - Laia

@@ -26,19 +26,20 @@ Completa la taula següent.
 | Persona | Departament | Funció / responsabilitat | Necessita privilegis especials? Per què? |
 | ------- | ----------- | ------------------------ | ---------------------------------------- |
 |Aina Ciurans|Direcció|                          |                                          |
-|         |Direcció|                          |                                          |
-|         |Administració|                          |                                          |
-|         |Administració|                          |                                          |
-|         |Suport tècnic|                          |                                          |
-|         |Suport tècninc|                          |                                          |
-|         |Suport tècnic|                          |                                          |
-|         |Producció musical|                          |                                          |
-|---------|Producció musical|-------------------|----------------------------------------------|
-|---------|Producci musical|-------------------|----------------------------------------------|
-|---------|Produccció musical|-------------------|----------------------------------------------|
-|---------|Producció musical|-------------------|----------------------------------------------|
-|---------|Informàtica|-------------------|----------------------------------------------|
-|---------|Informàtica|-------------------|----------------------------------------------|
+|Rut Tronil|Direcció|                          |                                          |
+|Dídac Gassó|Administració|                          |                                          |
+|Laia Macias|Administració|                          |                                          |
+|Estel Birosta|Suport tècnic|                          |                                          |
+|Aina Zuriguel|Suport tècninc|                          |                                          |
+|Lluïsa Richart|Suport tècnic|                          |                                          |
+|Roser Alberch|Producció musical|                          |                                          |
+|Guillem Adella|Producció musical|-------------------|----------------------------------------------|
+|Meritxell Reglat|Producció musical|-------------------|----------------------------------------------|
+|Alícia Monclús|Produccció musical|-------------------|----------------------------------------------|
+|Carles Molins|Producció musical|-------------------|----------------------------------------------|
+|Eulàlia Galcera|Producció musical|-------------------|------------------------------------|
+|Talia Costas|Informàtica|-------------------|----------------------------------------------|
+|Alex Soriano|Informàtica|-------------------|----------------------------------------------|
 
 ### 1.1. Reflexió
 

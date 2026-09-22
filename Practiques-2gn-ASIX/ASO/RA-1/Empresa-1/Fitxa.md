@@ -72,12 +72,12 @@ Classifica alguns dels recursos següents segons la seva finalitat.
 
 | Recurs                                                   | Qui creus que l'hauria d'utilitzar? | Per a què? |
 | -------------------------------------------------------- | ----------------------------------- | ---------- |
-| `/empresa/comu/intercanvi`                               |                                     |            |
-| `/empresa/comu/comunicats`                               |                                     |            |
-| `/empresa/departaments/administracio/compartida`         |                                     |            |
-| `/empresa/departaments/administracio/gestio_departament` |                                     |            |
-| `/empresa/projectes/campanya_estiu`                      |                                     |            |
-| `/empresa/administracio_sistema/backups`                 |                                     |            |
+| `/empresa/comu/intercanvi`                               |Tots els usuaris amb  permisos L/E | Ja que es una carpeta on tots els usuaris han de poder compartir i llegir documents en comu|
+| `/empresa/comu/comunicats`                               |Direcció amb L/E i la resta amb L|Direcció amb L/E ja que com son els que donen els comunicats per tant necessiten poder escriure, i la resta d'usuaris nomes han de poder llegir els comunicats|
+| `/empresa/departaments/administracio/compartida`         |Administració L/E i Direcció L| Administració L/E ja que és la carpeta on hi ha compartida les coses comunes del departament de administració, i Direcció auria de tenir permis de lectura ja que hi ha la posibilitat de que vulgui llegir pero no necessita escriure ni modificar|
+| `/empresa/departaments/administracio/gestio_departament` |Cap de departament Administració L/E i Direcció L| Només ha de tenir accés el cap de departament ja que es la carpeta on és guarda les coses de la gestió del departament |
+| `/empresa/projectes/campanya_estiu`                      |Només han de tenir acces els usuaris que treballen en aquesta campanyauq|Ja que encara no sabem quin es el projecte i a qui afecta|
+| `/empresa/administracio_sistema/backups`                 |Informatica|Ja que els unics que faran o restuaran els backups son els informatics|
 
 ---
 

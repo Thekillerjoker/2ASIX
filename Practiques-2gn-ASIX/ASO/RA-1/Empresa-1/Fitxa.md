@@ -25,21 +25,21 @@ Completa la taula següent.
 
 | Persona | Departament | Funció / responsabilitat | Necessita privilegis especials? Per què? |
 | ------- | ----------- | ------------------------ | ---------------------------------------- |
-|Aina Ciurans|Direcció|Usuari estàndard|                                          |
-|Rut Tronil|Direcció|Usuari estàndard|                                          |
-|Dídac Gassó|Administració|Usuari estàndard|                                          |
-|Laia Macias|Administració|Responsable de departament|                                          |
-|Estel Birosta|Suport tècnic|Usuari estàndard|                                          |
-|Aina Zuriguel|Suport tècninc|Usuari estàndard|                                          |
-|Lluïsa Richart|Suport tècnic|Responsable de departamentd|                                          |
-|Roser Alberch|Producció musical|Usuari estàndard|                                          |
-|Guillem Adella|Producció musical|Usuari estàndard|----------------------------------------------|
-|Meritxell Reglat|Producció musical|Responsable de departament|----------------------------------------------|
-|Alícia Monclús|Produccció musical|Usuari estàndard|----------------------------------------------|
-|Carles Molins|Producció musical|Usuari estàndard|----------------------------------------------|
-|Eulàlia Galcera|Producció musical|Usuari estàndard|------------------------------------|
-|Talia Costas|Informàtica|Administrador del sistema|----------------------------------------------|
-|Alex Soriano|Informàtica|Administrador del sistema|----------------------------------------------|
+|Aina Ciurans|Direcció|Usuari estàndard| No, per que no te la necessitat de fer canvis en el sistema|
+|Rut Tronil|Direcció|Usuari estàndard|No. per que no te la necessitat de fer canvis en el sistema|
+|Dídac Gassó|Administració|Usuari estàndard|No, perque no te la necessitat de fer cap canvi en el sistema|
+|Laia Macias|Administració|Responsable de departament| No, per que no te la necessitat de fer cap canvi en el sistema|
+|Estel Birosta|Suport tècnic|Usuari estàndard|Si, auria de tenir alguns permisos especials per que ha de poder donar suport tècnic|
+|Aina Zuriguel|Suport tècninc|Usuari estàndard| Si, auria de tenir alguns permisos especials per que ha de poder donar suport tècnic|
+|Lluïsa Richart|Suport tècnic|Responsable de departamentd| Si, auria de tenir alguns permisos especials per que ha de poder donar suport tècnic|
+|Roser Alberch|Producció musical|Usuari estàndard|No, per que no te la necessitat de fer cap canvi en el sistema|
+|Guillem Adella|Producció musical|Usuari estàndard|No, per que no te la necessitat de fer cap canvi en el sistema|
+|Meritxell Reglat|Producció musical|Responsable de departament|No, per que no te la necessitat de fer cap canvi en el sistema|
+|Alícia Monclús|Produccció musical|Usuari estàndard|No, per que no te la necessitat de fer cap canvi en el sistema|
+|Carles Molins|Producció musical|Usuari estàndard|No, per que no te la necessitat de fer cap canvi en el sistema|
+|Eulàlia Galcera|Producció musical|Usuari estàndard|No, per que no te la necessitat de fer cap canvi en el sistema|
+|Talia Costas|Informàtica|Administrador del sistema|Si, auria de tenir els permisos d'administrador|
+|Alex Soriano|Informàtica|Administrador del sistema|Si, auria de tenir els permisos d'adminsitrador|
 
 ### 1.1. Reflexió
 

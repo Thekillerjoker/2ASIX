@@ -100,12 +100,12 @@ No busquis encara una solució tècnica. Pensa només en les necessitats de l'em
 
 | Situació                                                             | Accés proposat | Justificació |
 | -------------------------------------------------------------------- | -------------- | ------------ |
-| Dídac accedeix a la carpeta compartida d'Administració               |                |              |
-| Laia accedeix a la gestió del departament d'Administració            |                |              |
-| Pere, treballador extern, accedeix als comunicats interns            |                |              |
-| Talia accedeix als backups del sistema                               |                |              |
-| Un membre de Producció musical accedeix a la carpeta d'Administració |                |              |
-| Un participant de `campanya_estiu` accedeix als fitxers del projecte |                |              |
+| Dídac accedeix a la carpeta compartida d'Administració               |L/E| Ja que és un usuari del departament d'administració i per tant ha de poder compartir documents comuns amb els usuaris d'administració i també poder llegir els documents dels altres|
+| Laia accedeix a la gestió del departament d'Administració            |L/E| És el cap de departament d'administració per tant ha de poder llegir i escriure|
+| Pere, treballador extern, accedeix als comunicats interns            |NA| Perque en la carpeta de comunicats hi ha informació sensible de l'empresa i si algu necessita donarli un comunicat li pot enviar un correu o parlar en persona|
+| Talia accedeix als backups del sistema                               |ADM| És informatica per tant els unics que han de poder accedir als backups es informatica|
+| Un membre de Producció musical accedeix a la carpeta d'Administració |NA| No ha de poder accedir a les carpetes d'altes departaments|
+| Un participant de `campanya_estiu` accedeix als fitxers del projecte |L/E|  És un usuari de la campanya d'estiu per tant necessita poder escriure i llegir documents|
 
 ---
 

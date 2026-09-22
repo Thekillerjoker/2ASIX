@@ -1,4 +1,4 @@
-# 📚 Repositori de 2gn ASIX:
+# 📚 Repositori de 2gn ASIX Sergi Rodríguez Bravo:
 Benvingut/da al meu repositori de **Administració de Sistemes Informàtics en Xarxa (ASIX)**.  
 Aquí trobaràs tant els **apunts** com les **pràctiques** de les diferents assignatures del cicle.
 -----

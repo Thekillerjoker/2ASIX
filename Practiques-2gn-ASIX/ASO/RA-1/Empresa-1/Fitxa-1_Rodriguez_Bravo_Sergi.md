@@ -181,11 +181,11 @@ Dídac deixa Administració i passa a Producció musical.
 
 Quins accessos hauria de perdre?
 
----
+Auria de perdre accés a les carpetes departaments/administracio/compartida, departaments/administracio/documentacio_interna---
 
 Quins accessos hauria d'obtenir?
 
----
+Auria d'obtenir accés ha les carpetes departaments/produccio_musical/compartida , departaments/produccio_musical/artistes i departaments/producco_musical/cataleg---
 
 ---
 

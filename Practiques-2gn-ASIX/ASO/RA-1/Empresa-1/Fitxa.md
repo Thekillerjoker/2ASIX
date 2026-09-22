@@ -137,7 +137,7 @@ David → lectura/escriptura
 
 Què passaria si l'empresa tingués **100 treballadors** amb el mateix tipus d'accés?
 
----
+Que no estaria organitzat i podrien borrar acidentalment coses d'un altre usuari---
 
 ---
 
@@ -145,7 +145,7 @@ Què passaria si l'empresa tingués **100 treballadors** amb el mateix tipus d'a
 
 Què passaria cada vegada que s'incorporés una persona nova?
 
----
+Que tendriem que donar els permisos carpeta per carpeta.---
 
 ---
 
@@ -153,7 +153,7 @@ Què passaria cada vegada que s'incorporés una persona nova?
 
 Què passaria quan una persona canviés de departament?
 
----
+Res  ja que si tenen el matiexos permisos---
 
 ---
 
@@ -167,7 +167,7 @@ No cal que coneguis encara el nom tècnic de la solució.
 
 ---
 
----
+Fer un grup per cada departament i gestionar els permisos a nivell de grup, i un altre grup per els caps de departament  i posar els permisos especials pel cap de departament en el grup de cap de departament.---
 
 ---
 

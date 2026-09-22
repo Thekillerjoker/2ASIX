@@ -39,13 +39,13 @@ Completa la taula següent.
 |Carles Molins|Producció musical|Usuari estàndard|No, per que no te la necessitat de fer cap canvi en el sistema|
 |Eulàlia Galcera|Producció musical|Usuari estàndard|No, per que no te la necessitat de fer cap canvi en el sistema|
 |Talia Costas|Informàtica|Administrador del sistema|Si, auria de tenir els permisos d'administrador|
-|Alex Soriano|Informàtica|Administrador del sistema|Si, auria de tenir els permisos d'adminsitrador|
+|Alex Soriano|Informàtica|Administrador del sistema|Si, auria de tenir els permisos d'adminsitrado|
 
 ### 1.1. Reflexió
 
 Quines diferències observes entre un **treballador**, un **departament** i una **funció o responsabilitat**?
 
----
+El treballador és la persona que realitza les tasques dins de l'empresa, un departament és una àrea de l'empresa que agurpa treballadors que realitzen activitats relacionades, i una funció o responsabilitat són les tasques i obligacions que té assignades un treballador o un departament.
 
 ---
 

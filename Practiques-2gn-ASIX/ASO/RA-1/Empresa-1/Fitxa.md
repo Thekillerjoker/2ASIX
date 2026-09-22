@@ -53,12 +53,12 @@ Quines diferències observes entre un **treballador**, un **departament** i una 
 
 Hi ha persones que, pel seu càrrec o funció, necessiten accessos diferents dels altres membres del seu departament?
 
-☐ Sí  
+✔ Sí  
 ☐ No
 
 Posa'n algun exemple:
 
----
+Si els usuaris que son el cap de departament al tenir la responsabilitat de cordinar el departament necesita poder accedir als recursos del seu departament i també tenir acces de lectura a la carpeta de comunicats i acces a carpetes amb carpetes compartides amb direcció.
 
 ---
 

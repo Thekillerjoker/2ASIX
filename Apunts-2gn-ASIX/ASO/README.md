@@ -92,3 +92,4 @@ A part d'aquests departaments, cal tenir en compte que en Pere Espinalt i la Neu
 - Minim privilegi (Vigilar externs),(Permisos).
 - Recurs 
 - Identitat (Usuari,Grup)
+

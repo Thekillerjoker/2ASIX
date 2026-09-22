@@ -197,7 +197,7 @@ Quins accessos caldria configurar?
 
 ---
 
----
+Accés a administracio/compartida i administracioa/documentacio_interna--
 
 ---
 

@@ -112,3 +112,15 @@ RDN -> Relative
 
 CN =Laia, OU=Administracio,OU=Usuaris,dc=musiicloud,dc=local
 **`Això seria RDN`**
+
+# Noms :
+Usuaris -> Incial Nom + Cognom
+
+Equips                                ->PC-adm.01 /no
+                                      ->PC-Nomserie o un numero        
+        -> Diferenciar per tipus: ->PC 
+                                  -> PT
+                                  -> PH
+                                  -> Por
+# Grups
+GR_

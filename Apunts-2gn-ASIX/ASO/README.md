@@ -93,4 +93,4 @@ A part d'aquests departaments, cal tenir en compte que en Pere Espinalt i la Neu
 - Recurs 
 - Identitat (Usuari,Grup)
 
-![imatge](Imatge.jpeg)d
+![imatge](Imatge.jpeg)

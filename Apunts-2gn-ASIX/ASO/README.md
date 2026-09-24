@@ -95,7 +95,7 @@ A part d'aquests departaments, cal tenir en compte que en Pere Espinalt i la Neu
 
 ![imatge](Imatge.jpeg)
 
-# Usuaris amb el mateix nom
+## Usuaris amb el mateix nom
 
 OU = Adminsitració
     CN = Laia   `info`
@@ -113,7 +113,7 @@ RDN -> Relative
 CN =Laia, OU=Administracio,OU=Usuaris,dc=musiicloud,dc=local
 **`Això seria RDN`**
 
-# Noms :
+## Noms :
 Usuaris -> Incial Nom + Cognom
 
 Equips                                ->PC-adm.01 /no
@@ -122,5 +122,14 @@ Equips                                ->PC-adm.01 /no
                                   -> PT
                                   -> PH
                                   -> Por
-# Grups
+## Grups
 GR_
+## Objectes
+
+User
+    -> Atributs:
+        -> CN, uid(UserID),
+*Aquest ID unic és important per si dos objectes tenen el mateix nom per mai tindran el mateix ID*
+
+*Mentre l'ID sigui el mateix dona igual el que cambi que l'usuari sera el mateix per tant tot l'aplicat seguiex aplicat*
+a

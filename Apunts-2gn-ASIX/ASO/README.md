@@ -94,3 +94,21 @@ A part d'aquests departaments, cal tenir en compte que en Pere Espinalt i la Neu
 - Identitat (Usuari,Grup)
 
 ![imatge](Imatge.jpeg)
+
+# Usuaris amb el mateix nom
+
+OU = Adminsitració
+    CN = Laia   `info`
+
+OU = Producio
+    CN = Laia   `info`
+
+`Info`
+    -> Dni, cognoms, Usuari, Telefon
+
+Distingui had
+DN
+RDN -> Relative
+
+CN =Laia, OU=Administracio,OU=Usuaris,dc=musiicloud,dc=local
+**`Això seria RDN`**

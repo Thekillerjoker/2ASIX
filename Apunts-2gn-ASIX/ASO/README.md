@@ -132,4 +132,3 @@ User
 *Aquest ID unic és important per si dos objectes tenen el mateix nom per mai tindran el mateix ID*
 
 *Mentre l'ID sigui el mateix dona igual el que cambi que l'usuari sera el mateix per tant tot l'aplicat seguiex aplicat*
-a

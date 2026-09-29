@@ -46,7 +46,30 @@ Dibuixa l'estructura que utilitzaries per organitzar els usuaris de MusicCloud.
 ```text
 MusicCloud
 │
-└──
+└──Usuaris
+  |  |__Direcció
+  |  |__Administració
+  |  |    |__grp_Resp_Adm
+  |  |__Suport_Tecnic
+  |  |    |__grp_Resp_ST
+  |  |__Producio_Musical
+  |  |   |__grp_Resp_PM
+  |  |__Informatica
+  |  |   |__grp_Resp_Inf
+  |  |__Externs
+  |__Equips
+  |  |__Impresores
+  |  |__Sobretaula
+  |  |__Portatils
+  |  |__Mobils
+  |  |__Servidors
+  |__Xarxa
+  | |__Routers
+  | |__Switchos
+  | |__Firewalls
+  | |__Incidencies
+  |__Software
+  | |__Llicencies   
 ```
 
 ---

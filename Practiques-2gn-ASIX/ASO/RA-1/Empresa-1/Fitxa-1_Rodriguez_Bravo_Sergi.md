@@ -258,7 +258,7 @@ Com anomenaries aquests conjunts de persones?
 
 ---
 
----
+Els anomnaria grups de seguretat i els seus noms serien els dels departaments.---
 
 # 7. Primera proposta per a MusicCloud
 

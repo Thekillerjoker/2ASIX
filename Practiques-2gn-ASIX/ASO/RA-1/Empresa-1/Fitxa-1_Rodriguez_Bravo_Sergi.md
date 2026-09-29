@@ -268,12 +268,12 @@ A partir de l'organització de l'empresa, proposa els primers conjunts de person
 
 | Nom proposat | Qui hi pertanyeria? | Per què existeix aquest conjunt? |
 | ------------ | ------------------- | -------------------------------- |
-|Direccio|Aina Ciurans, Rut Tornil|                                  |
-|Administracio|                     |                                  |
-|Suport_tecnic|                     |                                  |
-|Produccio_Musical|                     |                                  |
-|Informatica|                     |                                  |
-|Caps_Departament| ---------------| ------------------------------------|
+|Direccio|Aina Ciurans, Rut Tornil| Donar accés als recursos propis de Direcció.|
+|Administracio|Dídac Gassó, Laia Macias|Gestionar els recursos compartits del departament d'Administració.|
+|Suport_tecnic|Estel Birosta, Aina Zuriguel, Lluïsa Richart| Gestionar els recursos del departament de Suport tècnic.|
+|Produccio_Musical|Roser Alberch, Guillem Adella, Meritxell Reglat, Alícia Monclús, Carles Molins, Eulàlia Galcera| Gestionar els recursos del departament de Producció musical.|
+|Informatica|Talia Costas, Alex Soriano| Gestionar els recursos del departament d'Informàtica.|
+|Caps_Departament| Laia Macias, Lluïsa Richart, Meritxell Reglat, Talia Costas| Donar accés a les carpetes de gestió reservades als caps de departament.|
 
 ---
 

@@ -238,7 +238,9 @@ Quin avantatge té aquesta solució respecte a donar permisos persona per person
 
 ---
 
----
+L'avantatge principal és que no cal donar permisos a cada persona individualment. Es donen els permisos al grup i tots els seus membres els hereten.
+
+Això facilita la gestió, el manteniment i la seguretat dels permisos.---
 
 ### 6.2.
 
@@ -246,7 +248,9 @@ Si Dídac passa d'Administració a Producció musical, què caldria modificar?
 
 ---
 
----
+Només caldria modificar:
+
+Treure Dídac del grup Administració i afegir-lo al grup de Producció musical.--
 
 ### 6.3.
 

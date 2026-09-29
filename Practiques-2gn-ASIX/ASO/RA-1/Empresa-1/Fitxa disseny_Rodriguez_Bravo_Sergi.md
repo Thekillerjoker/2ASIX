@@ -71,13 +71,13 @@ Indica quina opció utilitzaries principalment en cada cas.
 
 ---
 
----
+Serveix per organitzar els objectes del directori, com ara usuaris, ordinadors o servidors, i poder aplicar-los polítiques.---
 
 **Grup:**
 
 ---
 
----
+Serveix per agrupar usuaris que tenen unes mateixes necessitats, sobretot per donar permisos i accessos als recursos.---
 
 ---
 

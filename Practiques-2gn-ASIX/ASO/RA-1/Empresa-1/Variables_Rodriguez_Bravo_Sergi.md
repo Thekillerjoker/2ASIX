@@ -11,15 +11,20 @@ $nom
 $servidor
 $ip
 $port
+![Variable-1](./Captures-Powershell/Vriables-1.png)
 
 Assigna-hi valors.
 
-Per exemple:
+
 
 $nom = "Pere"
 
+
 Mostra després el contingut de cadascuna de les variables.
-2. Modificar una variable
+
+![Variable-2](./Captures-Powershell/Variables-AssignarValor.png)
+
+1. Modificar una variable
 
 Crea:
 
@@ -32,6 +37,9 @@ Després canvia'l per:
 SRV02
 
 Comprova quin valor conserva la variable.
+
+![Variable-3](./Captures-Powershell/Variables-ModificarValor.png)
+
 3. Operacions
 
 Crea dues variables:

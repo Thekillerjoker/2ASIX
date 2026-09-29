@@ -32,8 +32,10 @@ Get-Help New-Item
 
 Respon:
 
-    Per a què serveix New-Item?
+    Per a què serveix New-Item? 
+    "Per crear un nou element."
     Quina estructura té l'ordre?
+    "New-Item [-Path] <string[]> [<CommonParameters>]
 
 Consulta alguns exemples:
 

@@ -197,7 +197,7 @@ Quins accessos caldria configurar?
 
 ---
 
-Accés a administracio/compartida i administracioa/documentacio_interna--
+Accés a /empresa/comu/intercanvi L/E, /empresa/comu/plantilles L/E, /empresa/comu/comunicats L, /empresa/departaments/administracio/compartida L/E, /empresa/departaments/administracio/documentacio_interna L/E.-
 
 ---
 

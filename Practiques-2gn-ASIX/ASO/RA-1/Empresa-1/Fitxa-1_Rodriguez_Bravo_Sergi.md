@@ -310,7 +310,7 @@ Campanya Estiu
 
 Creus que hauríem de canviar-les de departament?
 
-☐ Sí  
+ 
 ☐ No
 
 Si no, com podríem donar-los accés als recursos del projecte?

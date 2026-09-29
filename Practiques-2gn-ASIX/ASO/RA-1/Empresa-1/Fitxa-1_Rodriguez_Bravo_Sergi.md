@@ -283,20 +283,20 @@ Laia treballa al departament d'Administració, però també és la responsable d
 
 És suficient que pertanyi només al conjunt `Administració`?
 
-☐ Sí  
+
 ☐ No
 
 Per què?
 
 ---
 
----
+Perquè Laia té dues reponsabilitats diferents: és treballadora d'Administració i també ñes responsable del departament. El conjunt `Administració` li donaria els permisos d'un usuari normal del departament Administració però no els permisos adicionals de responsable.---
 
 Quina possible solució proposes?
 
 ---
 
----
+Crear un altre grup anomenat grp_Resp_Adm i afegir-hi Laia aquest grup i afegir aquest gurp dins del conjunt Administració.---
 
 ---
 

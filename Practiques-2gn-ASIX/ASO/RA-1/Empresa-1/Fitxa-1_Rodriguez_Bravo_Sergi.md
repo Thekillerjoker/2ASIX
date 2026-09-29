@@ -268,11 +268,12 @@ A partir de l'organització de l'empresa, proposa els primers conjunts de person
 
 | Nom proposat | Qui hi pertanyeria? | Per què existeix aquest conjunt? |
 | ------------ | ------------------- | -------------------------------- |
-|              |                     |                                  |
-|              |                     |                                  |
-|              |                     |                                  |
-|              |                     |                                  |
-|              |                     |                                  |
+|Direccio|Aina Ciurans, Rut Tornil|                                  |
+|Administracio|                     |                                  |
+|Suport_tecnic|                     |                                  |
+|Produccio_Musical|                     |                                  |
+|Informatica|                     |                                  |
+|Caps_Departament| ---------------| ------------------------------------|
 
 ---
 

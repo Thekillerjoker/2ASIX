@@ -23,7 +23,7 @@ Hi afegiries algun altre tipus d'objecte?
 
 ---
 
----
+Si, afegiria ubicacions, per poder identificar on es troben físicament els equips i altres recursos de l'empresa. ---
 
 # 2. Organització mitjançant unitats organitzatives
 
@@ -31,7 +31,7 @@ Proposa les **unitats organitzatives (OU)** principals que utilitzaries a MusicC
 
 |OU|Què contindrà?|Per què la crees?|
 |---|---|---|
-||||
+|Usuaris|Tots els usuaris del domini|Perque |
 ||||
 ||||
 ||||

@@ -9,14 +9,20 @@ Busca cmdlets que continguin la paraula Item:
 Get-Command *Item*
 
 Observa les ordres que apareixen.
+![Captura1](./Empresa-1/Captures-Powershell/Capt1.png)
 
 Intenta identificar quina ordre podria servir per:
 
     crear un element;
+    "New-Item"
     eliminar un element;
+    "Remove-Item"
     canviar el nom d'un element;
+    "Rename-Item"
     copiar un element;
+    "Copy-Item"
     moure un element.
+    "Move-Item"
 
 2. Investigar una ordre
 

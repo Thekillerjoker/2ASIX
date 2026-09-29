@@ -47,11 +47,17 @@ Consulta què significa el paràmetre -ItemType:
 
 Get-Help New-Item -Parameter ItemType
 
+![Capt-2](./Empresa-1/Captures-Powershell/Capt-2.png)
+
+
 A partir de l'ajuda, intenta descobrir com crear una carpeta.
 
 Per exemple, haurien d'arribar a alguna cosa semblant a:
 
 New-Item -ItemType Directory -Name Prova
+
+![Capt-3](./Empresa-1/Captures-Powershell/Capt-4.png)
+
 
 4. Nou repte
 

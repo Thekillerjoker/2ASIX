@@ -80,11 +80,15 @@ Get-Help Rename-Item -Examples
 Sense utilitzar Internet, descobreix quins cmdlets faries servir per:
 
     crear una carpeta;
+    "New-Item -ItemType Directory -Name NomCarpeta"
     canviar-li el nom;
+    "Rename-Item Nomactual NomNou"
     copiar-la;
+    "Copy-Item Carpetaorigen carpetadesti"
     moure-la;
+    "Move-Item Carpetaorigen carpetadesti"
     eliminar-la.
-
+    "Remove-Item nomcarpeta"
 Condició: només pots utilitzar Get-Command i Get-Help per investigar les ordres.
 
 Descobrir ordres de xarxa amb PowerShell

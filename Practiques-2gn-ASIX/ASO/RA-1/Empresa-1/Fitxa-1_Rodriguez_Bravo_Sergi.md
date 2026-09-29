@@ -209,7 +209,7 @@ Què hauríem de fer amb els seus accessos?
 
 ---
 
----
+Caldria desactivar el compte de Pere Espinalt.---
 
 ---
 

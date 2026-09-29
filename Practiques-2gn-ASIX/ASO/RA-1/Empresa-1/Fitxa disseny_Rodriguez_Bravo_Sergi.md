@@ -32,10 +32,12 @@ Proposa les **unitats organitzatives (OU)** principals que utilitzaries a MusicC
 |OU|Què contindrà?|Per què la crees?|
 |---|---|---|
 |Usuaris|Tots els usuaris del domini|Perque |
-||||
-||||
-||||
-||||
+|Administració|Els usuaris que son del departament d'adminstració ||
+|Direcció|Els usuaris que son del departament de direcció||
+|Suport tecnic|Els usuaris del departament de suport tecnic||
+|Producció musical|Els usuaris del departament de producció musical||
+|Informatica|Els usuaris del departament d'informatica||
+|Externs|Els usuaris externs||
 
 ## 2.1. Organització dels usuaris
 

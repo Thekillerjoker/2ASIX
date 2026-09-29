@@ -31,13 +31,13 @@ Proposa les **unitats organitzatives (OU)** principals que utilitzaries a MusicC
 
 |OU|Què contindrà?|Per què la crees?|
 |---|---|---|
-|Usuaris|Tots els usuaris del domini|Perque |
-|Administració|Els usuaris que son del departament d'adminstració ||
-|Direcció|Els usuaris que son del departament de direcció||
-|Suport tecnic|Els usuaris del departament de suport tecnic||
-|Producció musical|Els usuaris del departament de producció musical||
-|Informatica|Els usuaris del departament d'informatica||
-|Externs|Els usuaris externs||
+|Usuaris|Tots els usuaris del domini|Per organitzar els comptes dels usuaris de MusicCloud. |
+|Administració|Els usuaris que son del departament d'adminstració |Per organitzar els usuaris d'Administració i poder aplicar-los polítiques específiques.|
+|Direcció|Els usuaris que son del departament de direcció|Per organitzar els usuaris de Direcció i poder aplicar-los polítiques específiques.|
+|Suport tecnic|Els usuaris del departament de suport tecnic|Per organitzar els usuaris de Suport tècnic i poder aplicar-los polítiques específiques.|
+|Producció musical|Els usuaris del departament de producció musical|Per organitzar els usuaris de Producció musical i poder aplicar-los polítiques específiques.|
+|Informatica|Els usuaris del departament d'informatica|Per organitzar els usuaris d'Informàtica i poder aplicar-los polítiques específiques.|
+|Externs|Els usuaris externs|Per separar els usuaris externs dels treballadors interns i aplicar-los polítiques específiques.|
 
 ## 2.1. Organització dels usuaris
 
@@ -57,13 +57,13 @@ Indica quina opció utilitzaries principalment en cada cas.
 
 |Necessitat|OU|Grup|
 |---|:-:|:-:|
-|Organitzar els treballadors d'Administració|☐|☐|
-|Donar accés a la carpeta d'Administració|☐|☐|
-|Organitzar els ordinadors clients|☐|☐|
-|Identificar les persones que participen en Campanya Estiu|☐|☐|
-|Organitzar els servidors|☐|☐|
-|Donar privilegis als administradors del sistema|☐|☐|
-|Organitzar els comptes utilitzats per aplicacions|☐|☐|
+|Organitzar els treballadors d'Administració|Si|☐|
+|Donar accés a la carpeta d'Administració|☐|Si|
+|Organitzar els ordinadors clients|Si|☐|
+|Identificar les persones que participen en Campanya Estiu|☐|Si|
+|Organitzar els servidors|Si|☐|
+|Donar privilegis als administradors del sistema|☐|Si|
+|Organitzar els comptes utilitzats per aplicacions|Si|☐|
 
 ### Explica amb les teves paraules la diferència principal entre una OU i un grup.
 

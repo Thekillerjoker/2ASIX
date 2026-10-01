@@ -11,6 +11,7 @@ $nom
 $servidor
 $ip
 $port
+
 ![Variable-1](./Captures-Powershell/Vriables-1.png)
 
 Assigna-hi valors.

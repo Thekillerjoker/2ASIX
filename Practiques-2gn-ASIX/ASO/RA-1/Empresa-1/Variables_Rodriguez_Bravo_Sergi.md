@@ -46,6 +46,8 @@ Crea dues variables:
 
 $num1 = 20
 $num2 = 5
+![Operacions-Variable1](./Captures-Powershell/Crear-Varaible-Operacions-1.png)
+
 
 Crea una tercera variable que guardi:
 
@@ -58,7 +60,29 @@ Per exemple:
 
 $resultat = $num1 + $num2
 
+![Variables-Resultats](./Captures-Powershell/Variable-Resultats.png)
+
+
 Mostra cada resultat.
+
+## Resultat Suma:
+
+![Resultat-Suma](./Captures-Powershell/Variable-Suma.png)
+
+## Resultat Resta:
+
+![Resultat-Resta](./Captures-Powershell/Variable-resta.png)
+
+## Resultat Multiplicació:
+
+![Resultat-Multiplicacio](./Captures-Powershell/Variable-Multiplicacio.png)
+
+
+## Resultat Divisió:
+
+![Resultat-Divisio](./Captures-Powershell/Variable-Divisio.png)
+
+
 4. Variables dins d'un text
 
 Crea:

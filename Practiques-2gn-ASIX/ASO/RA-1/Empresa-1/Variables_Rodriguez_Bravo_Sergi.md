@@ -114,9 +114,15 @@ i:
 
 Write-Host 'Servidor: $servidor'
 
+![Ex-5](./Captures-Powershell/Ex-5-Variables.png)
+
 Respon:
 
 Quina diferència observes? Per què creus que passa?
+
+La diferencia és que  Les cometes dobles " " permeten que PowerShell substitueixi les variables pel seu valor. 
+
+Les cometes simples ' ' tracten el contingut com a text literal i, per tant, $servidor no es substitueix.
 
 6. Guardar el resultat d'una ordre
 

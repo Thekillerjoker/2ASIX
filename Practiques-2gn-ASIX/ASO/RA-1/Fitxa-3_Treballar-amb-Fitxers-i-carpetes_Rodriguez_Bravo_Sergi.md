@@ -108,20 +108,55 @@ Tasques
 
 Descobreix quines ordres de PowerShell et permeten obtenir la informació següent:
 
-    Mostrar els adaptadors de xarxa de l’equip.
-    Consultar les adreces IP configurades.
-    Consultar la configuració IP completa dels adaptadors de xarxa.
-    Consultar els servidors DNS configurats.
-    Comprovar si hi ha connectivitat amb un altre equip de la xarxa.
+    - Mostrar els adaptadors de xarxa de l’equip.
+    "La comanda és 'Get-NetAdapter'."
+    "O he trobat amb 'Get-Command *NetAdapter*'."
 
-Per cada tasca
+    "Què fa: mostra els adaptadors de xarxa de l’equip, el seu estat, velocitat, nom, etc."
 
-Indica:
+    - Consultar les adreces IP configurades.
+    "La commanda és 'Get-NetIPAddress'."
+    "O he trobat amb 'Get-Command *NetIPAddress*'."
 
-    el cmdlet que has trobat;
-    com l’has localitzat amb Get-Command;
-    una breu explicació del que fa;
-    la comanda que has executat;
-    el resultat obtingut.
+    "Què fa: mostra les adreces IP configurades en els adaptadors de xarxa."
 
-L'objectiu és que hi hagi una traçabilitat de com s'ha arribat a la comanda final.
+    - Consultar la configuració IP completa dels adaptadors de xarxa.
+    "La comanda és 'Get-NetIPConfiguration'."
+    "O he trobat amb 'Get-Command *NetIPConfiguration*'."
+    
+    "Què fa: mostra la configuració IP dels adaptadors, incloent-hi informació com l'adreça IP, la porta d'enllaç i els servidors DNS."
+
+    - Consultar els servidors DNS configurats.
+    "La comanda és 'Get-DnsClientServerAddress'."
+    "O he trobat amb 'Get-Command *Dns*'."
+
+    "Què fa: mostra els servidors DNS configurats per a cada adaptador de xarxa."
+
+    - Comprovar si hi ha connectivitat amb un altre equip de la xarxa.
+    "La comanda és 'Test-NetConnection IPdesti'."
+    "O he trobat amb 'Get-Command *NetConnection*'."
+
+    "Què fa: comprova la connectivitat de xarxa amb un altre equip o una adreça IP."
+    
+
+
+## Resultat comanda Get-NetAdapter:
+
+![Capt-5](./Empresa-1/Captures-Powershell/Capt-5.png)
+
+## Resultat comanda Get-NetIPAddress:
+
+![Capt-6](./Empresa-1/Captures-Powershell/Capt-6.png)
+
+
+## Resultat comanda Get-NetIPConfiguration:
+
+![Capt-7](./Empresa-1/Captures-Powershell/Capt-7.png)
+
+## Resultat comanda Get-DnsClientServerAddress:
+
+![Capt-8](./Empresa-1/Captures-Powershell/Capt-8.png)
+
+## Reesultat comanda Test-NetConnection IPdesti:
+
+![Capt-9](./Empresa-1/Captures-Powershell/Capt-9.png)

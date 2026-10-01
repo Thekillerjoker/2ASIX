@@ -160,7 +160,7 @@ $processos = Get-Process
 
 *Conté diversos elements, un per cada procés.*
 
-1. Aplicació a administració
+7. Aplicació a administració
 
 Crea una variable:
 

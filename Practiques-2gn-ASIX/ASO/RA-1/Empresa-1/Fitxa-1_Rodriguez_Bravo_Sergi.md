@@ -377,7 +377,7 @@ Imagina que demà MusicCloud passa de 14 treballadors a 500.
 
 Quina de les dues estratègies consideres més adequada?
 
-☐ Assignar permisos individualment a cada usuari.
+
 
 ☐ Organitzar els usuaris segons les seves necessitats i assignar permisos a aquests conjunts.
 
@@ -385,7 +385,7 @@ Justifica la resposta.
 
 ---
 
----
+Aquesta estratègia és més adequada perquè, si MusicCloud passa a tenir 500 treballadors, seria molt difícil gestionar els permisos un per un. En canvi, agrupant els usuaris segons els departament, les funcions o els projectes podem assignar els permisos al grup i gestionar els accessos de manera més fàcil, ràpida i segura.---
 
 ---
 

@@ -47,6 +47,7 @@ Crea dues variables:
 
 $num1 = 20
 $num2 = 5
+
 ![Operacions-Variable1](./Captures-Powershell/Crear-Varaible-Operacions-1.png)
 
 

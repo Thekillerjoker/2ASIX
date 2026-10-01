@@ -134,17 +134,33 @@ Després:
 
 $serveis
 
+![Serveis](./Captures-Powershell/Ex-6-Serveis.png)
+
 Respon:
 
     Què creus que conté $serveis?
+*Conté el resultat de l'ordre `Get-Service`, és a dir la informació dels serveis del sistema.*
+
     La variable conté un únic valor o diversos elements?
+*Conté diversos **elements**, un per cada servei que retorna `Get-Service`.*
 
-Fes el mateix amb:
-
+*Fes el mateix amb:*
+```powershell
 $processos = Get-Process
 
-i comprova el seu contingut.
-7. Aplicació a administració
+```
+
+![Processos](./Captures-Powershell/Ex-6-Processos.png)
+
+
+`Què creus que conté $processos?`
+
+*Conté la informació dels processos que estan executant-se en l'equip.*
+`Conté un únic valor o diversos elements?`
+
+*Conté diversos elements, un per cada procés.*
+
+1. Aplicació a administració
 
 Crea una variable:
 

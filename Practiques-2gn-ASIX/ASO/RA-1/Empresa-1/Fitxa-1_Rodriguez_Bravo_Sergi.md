@@ -329,25 +329,25 @@ Completa les frases amb les teves paraules.
 
 Un usuari representa:
 
----
+Una persona que té un compte al servei de directori i que pot accedir als recuros de l'empresa.---
 
 ### Recurs
 
 Un recurs és:
 
----
+Un element al qual un usuari pot accedir, com a una carpeta, un fitxer, una impressora o un servei.---
 
 ### Permís
 
 Un permís determina:
 
----
+Quines accions pot fer un usuari sobre un recurs, com llegir, modifica, crear o eliminar.---
 
 ### Grup
 
 Un grup serveix per:
 
----
+Agrupar usuaris que tenen necessitats d'accés similars i facilitar la gestió dels permisos.---
 
 ---
 

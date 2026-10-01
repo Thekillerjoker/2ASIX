@@ -361,13 +361,13 @@ Explica amb les teves paraules què significa.
 
 ---
 
----
+Significa que cada usuari ha de tenir només els permisos que necessita per fer la seva feina, i no més---
 
 Posa un exemple relacionat amb MusicCloud.
 
 ---
 
----
+Una trreballadora d'Administració hauria de poder accedir a les carpetes d'Administració, però no hauria de tenir accés a les carpetes de configuracions i backups del sistema, ja que aquestes només són necessàries per als administradors d'Informàtica.---
 
 ---
 

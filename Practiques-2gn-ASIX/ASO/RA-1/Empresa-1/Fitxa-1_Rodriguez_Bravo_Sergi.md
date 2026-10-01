@@ -317,7 +317,7 @@ Si no, com podríem donar-los accés als recursos del projecte?
 
 ---
 
----
+No cal canviar-los de departament. Podem crear un grup específic anomenat Campanya_Estiu i afegir-hi temporalment les persones que participen en el projecte. Després donaríem permisos a aquest grup sobre la carpeta del projecte.---
 
 ---
 

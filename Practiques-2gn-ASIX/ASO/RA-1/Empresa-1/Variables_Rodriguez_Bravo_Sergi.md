@@ -97,12 +97,15 @@ Intenta obtenir aquesta sortida:
 L'usuari Anna està treballant amb el servidor SRV01
 
 utilitzant les variables dins del text.
+
+![Ex4](./Captures-Powershell/Ex4-Variables.png)
+
+
 5. Cometes
 
 Executa:
 
 $servidor = "SRV01"
-
 Després:
 
 Write-Host "Servidor: $servidor"
@@ -114,6 +117,7 @@ Write-Host 'Servidor: $servidor'
 Respon:
 
 Quina diferència observes? Per què creus que passa?
+
 6. Guardar el resultat d'una ordre
 
 Executa:

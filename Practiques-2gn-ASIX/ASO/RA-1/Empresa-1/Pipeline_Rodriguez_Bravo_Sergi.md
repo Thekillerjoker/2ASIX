@@ -28,7 +28,9 @@ Get-Service | Sort-Object Status
 
 Què ha canviat?
 
-Finalment:
+Ara els ordena els serveis pel seu estatus Posant primer els Stoped. 
+
+inalment:
 
 Get-Service | Sort-Object Status -Descending
 

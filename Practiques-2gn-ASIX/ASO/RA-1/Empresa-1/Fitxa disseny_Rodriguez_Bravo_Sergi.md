@@ -119,7 +119,7 @@ Indica:
 
 **En quina OU ubicaries el seu compte?**
 
----
+Ubicaria el compte de Dídac Gassó a l'OU Administració, perquè és el seu departament habitual.---
 
 **A quins grups podria pertànyer?**
 

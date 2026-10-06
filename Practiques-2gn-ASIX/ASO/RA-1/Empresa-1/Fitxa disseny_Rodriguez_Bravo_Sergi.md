@@ -147,11 +147,15 @@ Explica breument què entens per **servei de directori**.
 
 ---
 
+Un servei de directori és un sistema que permet organitzar i gestionar usuaris, grups, ordinadors i altres recursos d'una empresa, així com els seus permisos i accessos.
+
 ---
 
 Quin problema resol a MusicCloud?
 
 ---
+
+A MusicCloud permet gestionar de manera centralitzadaels usuaris i els seus permisos. Això facilita controlar qui pot accedir a cada recurs i evita haver de configurar els permisos individualment per a cada usuari.
 
 ---
 

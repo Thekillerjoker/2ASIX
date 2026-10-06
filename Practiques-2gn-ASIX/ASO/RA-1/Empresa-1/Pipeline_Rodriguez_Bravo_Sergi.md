@@ -12,10 +12,15 @@ Get-Service | Sort-Object Name
 Respon:
 
     Quina diferència observes entre les dues sortides?
+    Res.
     Què fa la part situada abans de |?
+    Demana les dades dels serveis
     Què fa la part situada després de |?
+    Ordenar els objectes pel Nom
     Sort-Object crea els serveis o rep serveis creats per una altra ordre?
+    Rep serveis creats per un altra ordre
     Quina ordre és la que genera inicialment les dades?
+    Get-Service
 
 Fes ara la prova:
 

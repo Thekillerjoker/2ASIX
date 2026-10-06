@@ -125,13 +125,19 @@ Ubicaria el compte de Dídac Gassó a l'OU Administració, perquè és el seu de
 
 ---
 
----
+Podria pertànyer als grups:
+
+- Administració
+- Campanya_Estiu
+----
 
 ### Per què no és contradictori que estigui en una OU però pertanyi a diversos grups?
 
 ---
 
----
+No és contradictori perquè una OU serveix per organitzar el compte dins del directori, mentre que els grups serveixen per assignar permisos i accessos.
+
+Per tant, Dídac pot estar ubicat a l'OU Administració i al mateix temps pertànyer a diversos grups segons les seves funcions i projectes.---
 
 ---
 

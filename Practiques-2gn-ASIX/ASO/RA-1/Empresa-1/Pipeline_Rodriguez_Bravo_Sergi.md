@@ -36,7 +36,7 @@ Get-Service | Sort-Object Status -Descending
 
 Explica amb les teves paraules què ha fet el pipeline.
 
-El que fa es el mateix que abans és ha dir Crida els serveis i el 
+El que fa es el mateix que abans és ha dir Crida els serveis i esl ordena pel seu status de forma descendent és ha dir posant primer els que estan Running i després els Stopped 
 
 2. El mateix problema sense pipeline
 

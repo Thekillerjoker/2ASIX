@@ -59,8 +59,11 @@ Get-Service | Sort-Object Name
 Respon:
 
     Obtenen el mateix resultat?
+    Si
     Quina diferència hi ha entre les dues formes de treballar?
+     Una és fa amb una variable i l'altra és fa sense una variable.
     En quin cas s'ha guardat prèviament la informació en una variable?
+    En el primer cas
 
 Crea ara:
 

@@ -74,6 +74,9 @@ Mostra:
 $serveisOrdenats
 
 Explica què conté aquesta variable.
+
+Aquesta variable conte tots els serveis ordenats pel nom.
+
 3. Construir un pipeline pas a pas
 
 Executa primer:

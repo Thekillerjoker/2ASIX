@@ -96,10 +96,13 @@ Get-Process |
 No continuïs fins haver observat el resultat de cada ordre.
 
 Completa:
-Pas 	Ordre 	Què entra? 	Què surt?
-1 	Get-Process 		
-2 	Sort-Object CPU 		
-3 	Select-Object -First 5 		
+
+
+| Pas |	Ordre                 |	Què entra? | 	Què surt? |
+|-----|-----------------------|------------|--------------|
+| 1   | Get-Process           |------------|--------------|
+| 2   | Sort-Object CPU       |------------|--------------|
+| 3   | Select-Object -First 5|------------|--------------|	
 
 Explica què passaria si eliminéssim:
 

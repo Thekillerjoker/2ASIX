@@ -30,11 +30,14 @@ Què ha canviat?
 
 Ara els ordena els serveis pel seu estatus Posant primer els Stoped. 
 
-inalment:
+Finalment:
 
 Get-Service | Sort-Object Status -Descending
 
 Explica amb les teves paraules què ha fet el pipeline.
+
+El que fa es el mateix que abans és ha dir Crida els serveis i el 
+
 2. El mateix problema sense pipeline
 
 Executa:

@@ -156,6 +156,8 @@ $processos = Get-Process
 `Què creus que conté $processos?`
 
 *Conté la informació dels processos que estan executant-se en l'equip.*
+
+
 `Conté un únic valor o diversos elements?`
 
 *Conté diversos elements, un per cada procés.*
@@ -163,8 +165,9 @@ $processos = Get-Process
 7. Aplicació a administració
 
 Crea una variable:
-
+```powerhsell
 $nomServei = "Spooler"
+```
 
 Utilitza aquesta variable per consultar el servei amb:
 

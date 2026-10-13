@@ -87,7 +87,7 @@ Mostra cada resultat.
 
 4. Variables dins d'un text
 
-Crea:
+Crea:f
 
 $nom = "Anna"
 $servidor = "SRV01"

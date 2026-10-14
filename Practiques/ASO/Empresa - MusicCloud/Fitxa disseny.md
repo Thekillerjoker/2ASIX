@@ -251,20 +251,24 @@ Escull **dues decisions** del teu DIT que consideris importants i justifica-les.
 
 ### Decisió 1
 
+*Separar els usuaris en OU segons el seu departament*
 ---
 
 **Justificació:**
 
+Això permet organitzar millor els comptes dels treballadors i aplicar polítiques diferents a cada departament. Si un treballador canvia de departament, es pot moure a l'OU corresponent
 ---
 
 ---
 
 ### Decisió 2
 
+*Separar els grups dels usuaris i crear grups específics per als projectes*
 ---
 
 **Justificació:**
 
+Això permet donar permisos als treballadors segons les seves funcions i projectes sense haver de canviar-los de departament. Per exemple, Dídac pot continuar a Administració i pertànyer també al grup Campanya_Estiu per accedir als recursos del projecte
 ---
 
 ---
@@ -277,18 +281,21 @@ Respon breument.
 
 ### a) Per què no seria una bona idea guardar tots els usuaris, grups, equips i servidors al mateix nivell sense organitzar-los?
 
+*Perquè seria més difícil trobar i gestionar els objectes, aplicar polítiques i mantenir l'ordre del directori*
 ---
 
 ---
 
 ### b) Per què no hauríem d'utilitzar les OU per substituir els grups de permisos?
 
+*Perquè les OU serveixen per organitzar els objectes i aplicar polítiques, mentre que els grups serveixen per assignar permisos i controlar l'accés als recursos*
 ---
 
 ---
 
 ### c) Si MusicCloud passa de 14 a 500 treballadors, quina característica del disseny que has fet avui facilitarà més l'administració?
 
+*L'organització dels usuaris en OU segons els departaments i l'ús de grups per gestionar els permisos. Això permetrà administrar molts usuaris de manera més ràpida, ordenada i segura*
 ---
 
 ---
@@ -304,15 +311,31 @@ A partir de les decisions preses durant la sessió, deixa definida la proposta q
 ```text
 MusicCloud
 │
+├── Usuaris
+│   ├── Direcció
+│   ├── Administració
+│   ├── Suport_Tècnic
+│   ├── Producció_Musical
+│   ├── Informàtica
+│   └── Externs
 │
+├── Equips
+│   ├── Ordinadors
+│   ├── Portàtils
+│   └── Impressores
 │
+├── Servidors
 │
+└── Comptes_Aplicacions_Serveis
 ```
 
 ## Criteri utilitzat per organitzar els objectes
 
+*He organitzat els objectes en unitats organitzatives segons el seu tipus i funció dins de MusicCloud. Els usuaris s'han separat per departaments, mentre que els equips, els servidors i els comptes d'aplicacions s'han organitzat en apartats diferents per facilitar-ne la gestió*
 ---
 
 ---
 
 ## Criteri utilitzat per diferenciar OU i grups
+
+*Les OU serveixen per organitzar els objectes del directori i aplicar polítiques. En canvi, els grups serveixen per agrupar usuaris segons les seves funcions o projectes i assignar-los els permisos necessaris per accedir als recursos.*

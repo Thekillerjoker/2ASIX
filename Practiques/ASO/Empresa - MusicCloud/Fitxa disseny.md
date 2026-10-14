@@ -210,10 +210,37 @@ Ha de mostrar, com a mínim:
 ```text
 MusicCloud
 │
+│──Usuaris
+|  |── Direcció
+|  |── Administració
+|  |── Support_Tècnic
+|  |── Producció_Musical
+|  |── Informàtica
+|  |___Externs
 │
-│
-│
-│
+│── Grups
+|   |── Departaments
+|   |   |── Direcció
+|   |   |── Adminsitració
+|   |   |── Suport_Tècnic
+|   |   |── Producció_Musical
+|   |   |__Informàtica
+|   |── Caps_Departament
+|   |── Projectes
+|       |── Campanya_Estiu
+|       |__Nou_Catàleg
+|── Equips
+|   |── Ordinadors
+|   |── Portàtils
+|   |── Impresores
+|   |__Mòbils      
+|── Servidors
+|   |── SAS etc
+|── Llicencies
+|__Ubicacions
+   |── Oficines
+   |── Sales
+   |__Magatzem   
 ```
 
 ---

@@ -3,28 +3,28 @@ Benvingut/da al meu repositori de **Administració de Sistemes Informàtics en X
 Aquí trobaràs tant els **apunts** com les **pràctiques** de les diferents assignatures del cicle.
 -----
 # 📝 Apunts:
-📂 [`Apunts`](./Apunts)
+📂 [`Apunts/`](./Apunts/)
 En aquesta carpeta hi ha els apunts generals i documentació.
 ---
 
 ## 💻 Pràctiques:
 
 
-📂 [`Practiques-2gn-ASIX/`](./Practiques-2gn-ASIX/)
+📂 [`Practiques/`](./Practiques/)
 Cada subcarpeta correspon a una assignatura del curs:
-- 📂 [`IAW/`](./Practiques-2gn-ASIX/IAW/) → **Implementacio Aplicacions Web** 📝🌐
+- 📂 [`IAW/`](./Practiques/IAW/) → **Implementacio Aplicacions Web** 📝🌐
   - Configuració i instal·lació de gestors de continguts i gestio de bases de dades.
   - Desenvolupament i integració de guions en servidor.
   - Desplegament d'aplicacións web sobre servidors HTTP.
-- 📂 [`SXI/`](./Practiques-2gn-ASIX/SXI/)  → **Serveis en Xarxa** 🌐 🖥️🐧
+- 📂 [`SXI/`](./Practiques/SXI/)  → **Serveis en Xarxa** 🌐 🖥️🐧
   - Deplyar i administrar serveis basics de xarxa (DHCP, DNS, FTP, SSH).
   - Configurar i gestionar servidors de correu, proxies i accés remot segur (VPN).
   - Implementar mecanismes de seguretat, certificats SSL/TLS i control d'accés en els serveis de xarxa.
-- 📂 [`ASO/`](./Practiques-2gn-ASIX/ASO/) → **Aministració de Sistemes Opèratius** 🖥️🐧
+- 📂 [`ASO/`](./Practiques/ASO/) → **Aministració de Sistemes Opèratius** 🖥️🐧
   
-- 📂 [`FM/`](./Practiques-2gn-ASIX/FM/)  → **Fonaments de Maquinari**
+- 📂 [`FM/`](./Practiques/FM/)  → **Fonaments de Maquinari**
 
-- 📂 [`SAD/`](./Practiques-2gn-ASIX/SAD/) → **Seguretat i Alta Disponibilitat**
+- 📂 [`SAD/`](./Practiques/SAD/) → **Seguretat i Alta Disponibilitat**
 s
 ---
 

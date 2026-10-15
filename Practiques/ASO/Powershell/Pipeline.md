@@ -169,7 +169,6 @@ A partir de la variable anterior:
  3.   mostra els deu primers.
 
 ![Variable-Processos-10Primers](./Captures-Powershell/Pipeline-Variable-Processos-10Primers.png)
-
 No tornis a executar `Get-Process` per fer aquests tres apartats.
 ----
 
@@ -181,6 +180,7 @@ Get-Process |
     Sort-Object CPU -Descending |
     Select-Object -First 5
 ```
+![Ex-5-1](./Captures-Powershell/Pipeline-EX5.png)
 
 Ara executa:
 ```powershell
@@ -188,15 +188,20 @@ Get-Process |
     Select-Object -First 5 |
     Sort-Object CPU -Descending
 ```
+![Ex-5-2](./Captures-Powershell/Pipeline-EX6.png)
 
 Respon:
 
  1.   Les dues ordres fan el mateix?
+   *No, els dos ordes no fan el mateix.*
  2.   Per què?
+   *En la primera ordre, tots els processos s'ordenen de major a menor consum de CPU i després se selecciona els cinc primers.*<br>
+   *En la segona ordre, primer se seleccionen els cinc primers processos i després s'ordenen de major a menor consum de CPU. Per tant.*
+
  3.   Quants processos arriben a Sort-Object en el primer cas?
+   *Arriben tots els processos que retorna `Get-Process`, perquè no s'ha filtrat ni seleccionat cap procés abans d'ordenar-los.*
  4.   Quants processos arriben a Sort-Object en el segon?
+   *Arriben només 5 processos, perquè `Select-Object -First 5 ` selecciona els cinc primers abans de passar-los a `Sort-Object`.*
 
 Aquest exercici és important: **l'ordre dels cmdlets dins del pipeline modifica el resultat.**
-
 ---
-

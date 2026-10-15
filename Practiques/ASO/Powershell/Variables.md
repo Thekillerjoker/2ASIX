@@ -168,6 +168,9 @@ Crea una variable:
 ```powerhsell
 $nomServei = "Spooler"
 ```
+*Jo he utilitzat el servei W32Time ja que en el meu cas no tenia el servei Spooler i per tant hem donaba error.*
+![W32Time](./Captures-Powershell/Variable-W32Time.png)
+
 
 Utilitza aquesta variable per consultar el servei amb:
 
@@ -178,3 +181,7 @@ L'objectiu és obtenir el mateix resultat que:
 Get-Service -Name Spooler
 
 però sense escriure Spooler directament en el cmdlet.
+
+![Get-Service$nomServei](./Captures-Powershell/GetServiceNomServei.png)
+
+*Com es pot veure, el resultat és exactament el mateix que si hagués utilitzat el servei Spooler.*

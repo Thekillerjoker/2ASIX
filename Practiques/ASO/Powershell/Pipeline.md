@@ -146,17 +146,31 @@ Explica per què.
 4. Ordenar processos
 
 Emmagatzema en una variable tots els processos que s'estan executant ordenats de major a menor consum de CPU.
+```Powershell
+# Jo he creat una variable anomenada $Processos que hi te el següent:
+$Processos= Get-Process | Sort-Object CPU -Descending
+```
 
-Mostra després el contingut de la variable.
+**Mostra després el contingut de la variable.**
+
+![Variable-Processos](./Captures-Powershell/Pipeline-Variable-Processos.png)
+
 
 A partir de la variable anterior:
 
  1.   mostra els tres primers processos;
+
+![Varaible-Processos-3Primers](./Captures-Powershell/Pipeline-Variable-Processos-3Primers.png)
+
  2.   mostra els cinc primers;
+
+![Variable-Processos-5Primers](./Captures-Powershell/Pipeline-Variable-Processos-5Primers.png)
+
  3.   mostra els deu primers.
 
-No tornis a executar `Get-Process` per fer aquests tres apartats.
+![Variable-Processos-10Primers](./Captures-Powershell/Pipeline-Variable-Processos-10Primers.png)
 
+No tornis a executar `Get-Process` per fer aquests tres apartats.
 ----
 
 5. Canviar l'ordre del pipeline

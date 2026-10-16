@@ -51,13 +51,16 @@ $a + $b
 Respon:
 
 - Quin resultat obtens en cada cas?
+
   *En el primer cas el resultat és `15`, i en el segon és `105`.*
 - Per què no és el mateix? Mostra després el contingut de cadascuna de les variables.
+
 *No és el mateix, ja que en el primer cas les variables són nombres enters i, per tant, es poden fer operacions matemàtiques com sumar, restar, multiplicar, etc. En canvi, en el segon cas són cadenes de text i, per tant, no es fa una operació matemàtica, sinó que es concatena el text.*
 
 ![Contingut-A-B](./Captures-Powershell/Pt-03/EX2-3.png)
 
 - Quin tipus tenen $a i $b en cada cas?
+
   *En el primer cas, `$a` i `$b` són de tipus `Int32`. En el segon, són de tipus `String`.*
 
 ## 3. Canviar el tipus d'una variable

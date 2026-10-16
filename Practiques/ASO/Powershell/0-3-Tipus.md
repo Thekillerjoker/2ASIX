@@ -10,18 +10,24 @@ $port = 443
 $actiu = $true
 $espai = 12.5
 ```
+
+![Creacio-Variables](./Captures-Powershell/Pt-03/Variables-1.png)
+
 Consulta el tipus de cadascuna amb:
 ```powershell
 .GetType()
 ```
+
+![Consultar-Tipus-Variable](./Captures-Powershell/Pt-03/Variables-2.png)
+
 Completa una taula com aquesta:
 
-| Variable | Valor        | Tipus |
-| -------- | ------------ | ----- |
-| $nom     | `Servidor01` |       |
-| $port    | `443`        |       |
-| $actiu   | $true        |       |
-| $espai   | `12.5`       |       |
+| Variable | Valor        | Tipus       |
+| -------- | ------------ | ------------|
+| $nom     | `Servidor01` | String      |
+| $port    | `443`        | Int32       |
+| $actiu   | $true        | Boolean     |
+| $espai   | `12.5`       | Double      |
 ## 2. Número o text?
 
 Executa:

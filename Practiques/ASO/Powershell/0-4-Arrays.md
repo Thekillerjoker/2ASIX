@@ -27,9 +27,14 @@ Amb l'array anterior, mostra:
 - el segon servidor;
 - el quart servidor.
 
+![Ex2](./Captures-Powershell/Pt-04/Ex2.png)
+
 Respon:
 
 **Quina és la posició del primer element d'un array?**
+
+*La posició del primer element d'un array es 0, ja que els array començen a 0.*
+
 ## 3. Comptar elements
 Utilitza:
 ```powershell

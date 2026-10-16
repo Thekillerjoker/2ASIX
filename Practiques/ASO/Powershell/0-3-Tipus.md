@@ -104,6 +104,9 @@ Comprova el tipus:
 ```powershell
 $port.GetType()
 ```
+
+![Ex4-1](./Captures-Powershell/Pt-03/Ex4-1.png)
+
 Ara prova:
 ```
 [string]$portText = 443
@@ -112,9 +115,18 @@ Consulta també:
 ```powershell
 $portText.GetType()
 ```
+
+![Ex4-2](./Captures-Powershell/Pt-03/Ex4-2.png)
+
+
 Respon:
 
+*No, els dos valors no són del mateix tipus. `$port` és de tipus `Int32`, ja que s'ha definit com un nombre enter amb [int]. En canvi, `$portText` és de tipus `String`, ja que s'ha definit com a text amb [String].*
+
 **Tot i que visualment els dos valors semblen `443`, són del mateix tipus?**
+
+*No, tot i que visualment els dos valors mostren `443`, el primer és un nombre enter i el segon és una cadena de text.*
+
 ## 5. Booleans
 
 Crea:

@@ -72,12 +72,26 @@ Mostra després tot l'array.
 
 Crea un array numèric amb els següents ports: 22, 80, 443 i 3389
 
+![Ex5-1](./Captures-Powershell/Pt-04/Ex-5-1.png)
+
+
 Respon (i digues quina comanda has executat per obtenir la resposta):
 
 - Quants ports hi ha?
+  
+  *Hi ha 4 ports, i he utilitzat la comanda `$ports.Count`*
+
 - Quin és el primer?
+  
+  *El primer és 22, i he utilitzat la comanda `$ports[0]`*
+
 - Quin és l'últim?
+  
+  *L'últim és 3389, i he utilitzat la comanda `$ports[-1]`* 
+
 - Quin tipus té el primer element?
+  
+  *El primer element és de tipus Int32, i he utilitzat la comanda `$ports[0].GetType()`*
 
 ## 6. Array i variables
 

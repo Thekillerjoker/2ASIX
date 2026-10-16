@@ -64,6 +64,10 @@ modifica el segon element perquè passi a ser:
 SRV-WEB01
 ```
 Mostra després tot l'array.
+
+![Ex4](./Captures-Powershell/Pt-04/Ex4.png)
+
+
 ## 5. Array de ports
 
 Crea un array numèric amb els següents ports: 22, 80, 443 i 3389

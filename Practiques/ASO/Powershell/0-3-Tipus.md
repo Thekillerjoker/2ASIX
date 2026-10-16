@@ -136,11 +136,18 @@ $servidorDisponible = $false
 ```
 Consulta els tipus.
 
+![Ex5-1](./Captures-Powershell/Pt-03/Ex5-1.png)
+
+
 Després mostra un missatge amb:
 ```
 Write-Host "Servei actiu: $serveiActiu"
 Write-Host "Servidor disponible: $servidorDisponible"
 ```
+
+![Ex5-2](./Captures-Powershell/Pt-03/Ex5-2.png)
+
+
 ## 6. General
 
 Crea variables per representar un servidor amb aquesta informació:

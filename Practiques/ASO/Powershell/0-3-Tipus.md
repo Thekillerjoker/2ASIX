@@ -73,6 +73,8 @@ Consulta:
 ```powershell
 $valor.GetType()
 ```
+![Ex3-1](./Captures-Powershell/Pt-03/EX3-1.png)
+
 Ara executa:
 ```powershell
 $valor = "100"
@@ -81,9 +83,17 @@ i torna a consultar:
 ```powershell
 $valor.GetType()
 ```
-Respon:
 
+![Ex3-2](./Captures-Powershell/Pt-03/EX3-2.png)
+
+Respon:
 **Ha canviat el valor? Ha canviat el tipus?**
+
+*El valor representat contiuna sent `100`, però el tipus de dada és el que ha canviat.* 
+
+*Abans era `Int32`, ja que és un nombre enter; després, el tipus ha canviat a `String`, ja que ara és text.*
+
+
 ## 4. Tipus explícits
 
 Executa:

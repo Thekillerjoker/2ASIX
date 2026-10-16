@@ -42,11 +42,17 @@ Utilitza:
 ```
 per saber quants servidors hi ha dins de l'array.
 
+![Ex3-1](./Captures-Powershell/Pt-04/Ex3-1.png)
+
 Afegeix:
 ```
 SRV05
 ```
 i torna a comprovar el nombre d'elements.
+
+![Ex3-2](./Captures-Powershell/Pt-04/Ex3-2.png)
+
+
 ## 4. Modificar un element
 
 Partint de:

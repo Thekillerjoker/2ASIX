@@ -157,8 +157,22 @@ Port: 443
 Espai lliure: 125.7 GB
 Actiu: True
 ```
+
+![Ex6-1](./Captures-Powershell/Pt-03/Ex6-1.png)
+
 Després:
 
 1. mostra el valor de totes les variables;
+   
+   ![Ex6-2](./Captures-Powershell/Pt-03/Ex6-2.png)
+
 2. consulta el tipus de cadascuna;
+   
+   ![Ex6-3](./Captures-Powershell/Pt-03/Ex6-3.png)
+
 3. indica quin tipus de dada has utilitzat per cada valor.
+
+- *`$Nom`: String.*
+- *`$port`: Int32.*
+- *`$espaiLliure`: Double.*
+- *`$actiu`: Boolea.*

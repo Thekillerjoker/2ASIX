@@ -16,6 +16,10 @@ Guarda'l dins de:
 $servidors
 ```
 Mostra tot el contingut de l'array.
+
+![Ex1](./Captures-Powershell/Pt-04/Ex1.png)
+
+
 ## 2. Accedir a posicions
 Amb l'array anterior, mostra:
 

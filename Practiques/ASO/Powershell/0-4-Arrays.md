@@ -104,6 +104,10 @@ $servidor3 = "SRV03"
 Després crea un array a partir d'aquestes variables:
 
 Mostra'n el contingut.
+
+![Ex6](./Captures-Powershell/Pt-04/Ex6.png)
+
+
 ## 7. Resultats d'un cmdlet
 
 Utilitza un array per a determinar el número de processos que s'estan executant en el sistema.

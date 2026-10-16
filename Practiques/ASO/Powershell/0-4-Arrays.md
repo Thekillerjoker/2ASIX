@@ -111,6 +111,10 @@ Mostra'n el contingut.
 ## 7. Resultats d'un cmdlet
 
 Utilitza un array per a determinar el número de processos que s'estan executant en el sistema.
+
+![Ex7](./Captures-Powershell/Pt-04/Ex7.png)
+
+
 ## 8. General
 
 Crea un array:
@@ -123,3 +127,6 @@ Primer servidor: SRV-DC01
 Últim servidor: SRV-FILES01
 Nombre de servidors: 4
 ```
+
+![Ex8](./Captures-Powershell/Pt-04/Ex-8.png)
+

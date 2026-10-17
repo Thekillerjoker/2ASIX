@@ -53,17 +53,28 @@ Utilitza després `Select-Object` per mostrar únicament tres propietats que con
 Amb `Get-Process`, construeix ordres que permetin:
 
 1. mostrar només `Name` i `CPU`;
+   
+   ![Ex2-1](./Captures-Powershell/Pt-06/Ex2-1.png)
     
 2. mostrar només `Name`, `Id` i `CPU`;
     
+    ![Ex2-2](./Captures-Powershell/Pt-06/Ex2-2.png)
+
 3. mostrar només els cinc primers processos;
     
+    ![Ex2-3](./Captures-Powershell/Pt-06/Ex2-3.png)
+
 4. mostrar només els tres últims processos.
     
+    ![Ex2-4](./Captures-Powershell/Pt-06/Ex2-4.png)
 
 Respon:
 
 **Quina diferència hi ha entre seleccionar propietats i seleccionar objectes?**
+
+*Seleccionar propietats significa decidir quines dades de cada objecte volem mostrar.*
+
+*Seleccionar objectes significa decidir quins elements de la llista volem conservar.*
 
 ## 3. Ordenar i seleccionar
 

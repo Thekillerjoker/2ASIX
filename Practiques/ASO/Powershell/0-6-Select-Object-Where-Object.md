@@ -1,6 +1,7 @@
 # `Select-Object` i `Where-Object`
 
-> **Nota:** Els exercicis t'han de servir per familiaritzar-te amb PowerShell. No et limitis a executar les ordres: fes proves, modifica valors i propietats i observa què passa. Documenta les proves que consideris rellevants.
+
+
 ## 1. Investigar els objectes
 
 Executa:

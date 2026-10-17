@@ -134,22 +134,25 @@ Utilitzant `Where-Object`, mostra (adjunta comandes):
 
 1. els números superiors a `10`;
     
+    *Operador: `-gt` Major que.*
+    ![Ex4-1](./Captures-Powershell/Pt-06/Ex4-1.png)
+
 2. els números inferiors a `20`;
     
+    *Operador: `-lt` Menor que.*
+    ![Ex4-2](./Captures-Powershell/Pt-06/Ex4-2.png)
+
 3. els números iguals a `12`;
     
+    *Operador: `-eq` Igual que.*
+    ![Ex4-3](./Captures-Powershell/Pt-06/Ex4-3.png)
+
 4. tots els números diferents de `20`.
     
-Per cada cas identifica quin operador has utilitzat:
+    *Operador: `-ne` Diferent de.*
+    ![Ex4-4](./Captures-Powershell/Pt-06/Ex4-4.png)
 
-```
--eq
--ne
--gt
--lt
--ge
--le
-```
+
 ## 5. Entendre `$_`
 
 Utilitza:

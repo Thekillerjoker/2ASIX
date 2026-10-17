@@ -10,6 +10,9 @@ Get-Process
 ```
 Observa la informació que mostra PowerShell.
 
+![Ex1-1](./Captures-Powershell/Pt-06/Ex1.png)
+
+
 Ara investiga un procés amb:
 
 ```
@@ -17,18 +20,34 @@ Get-Process |
     Select-Object -First 1 |
     Select-Object *
 ```
+
+![Ex1-2](./Captures-Powershell/Pt-06/Ex1-2.png)
+
 i:
 ```
 Get-Process |
     Get-Member
 ```
+
+![Ex1-3](./Captures-Powershell/Pt-06/Ex1-3.png)
+
 Respon:
 
 1. `Get-Process` mostra inicialment totes les propietats de l'objecte?
+   
+   *No, Mostra una selecció de propietats en una vista resumida, no necessàriament mostra totes les propietats.*
+
 2. Quina diferència hi ha entre `Select-Object *` i `Get-Member`?
-  3. Localitza almenys tres propietats que no coneixies. 
-    
+   
+   *`Select-Object` mostra els valors de totes les propietats de l'objecta seleccionat. `Get-Member` mostra els membres disponibles, com ara les propietats i els mètodes, i els seus tiups.*
+
+3. Localitza almenys tres propietats que no coneixies. 
+  
+  *`Handles`, `WorkingSet`,`StartTime`.*
 Utilitza després `Select-Object` per mostrar únicament tres propietats que consideris útils.
+
+![Ex1-4](./Captures-Powershell/Pt-06/Ex1-4.png)
+
 ## 2. Seleccionar propietats i objectes
 
 Amb `Get-Process`, construeix ordres que permetin:

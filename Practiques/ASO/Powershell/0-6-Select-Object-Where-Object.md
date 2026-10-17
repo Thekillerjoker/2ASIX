@@ -88,6 +88,8 @@ Id
 CPU
 ```
 
+![Ex3-1](./Captures-Powershell/Pt-06/Ex3-1.png)
+
 Compara després aquestes dues estratègies:
 
 ```
@@ -100,14 +102,26 @@ i:
 seleccionar 5 → ordenar
 ```
 
+![Ex3-2](./Captures-Powershell/Pt-06/Ex3-2.png)
+
+![Ex3-3](./Captures-Powershell/Pt-06/Ex3-3.png)
+
+
 Respon:
 
 1. Fan el mateix?
-    
+   
+    *No*
+
 2. Per què?
     
+    *En el primer cas, s'ordenen tots els processos i després se seleccionen els cinc que tenen més CPU acumulada. En el segon cas, primer se seleccionen cinc processos de la llista original i només s'ordenen aquests cinc.*
+
 3. Quants processos rep `Sort-Object` en cada cas?
     
+    *En el primer cas, rep tots els processos retornats per `Get-Process`. En el segon, només en rep cinc.*
+
+
 ## 4. Primer filtre
 
 Crea:

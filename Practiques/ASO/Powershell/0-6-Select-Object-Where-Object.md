@@ -248,27 +248,39 @@ Construeix filtres que mostrin:
 
    *`-or` permet que es compleixi una condició o l'altra.*
 
-   
+
 ## 8. Pipeline complet
 
 Construeix progressivament un pipeline que:
 
 1. obtingui tots els processos;
     
+    ![Ex8-1](./Captures-Powershell/Pt-06/Ex8-1.png)
+
 2. deixi només els processos amb `CPU > 5`;
     
+    ![Ex8-2](./Captures-Powershell/Pt-06/Ex8-2.png)
+
 3. deixi, a més, només els processos amb `Id > 1000`;
     
+    ![Ex8-3](./Captures-Powershell/Pt-06/Ex8-3.png)
+
 4. els ordeni de major a menor CPU;
     
+    ![Ex8-4](./Captures-Powershell/Pt-06/Ex8-4.png)
+
 5. mostri només els cinc primers;
     
+    ![Ex8-5](./Captures-Powershell/Pt-06/Ex8-5.png)
+
 6. mostri només les propietats:
 ```
 Name
 Id
 CPU
 ```
+
+![Ex8-6](./Captures-Powershell/Pt-06/Ex8-6.png)
 
 No intentis escriure directament tota l'ordre.
 
@@ -279,16 +291,27 @@ Representa finalment el recorregut:
 ```
 Get-Process
      ↓
-____________
+Where-Object { $_.CPU -gt 5}
      ↓
-____________
+Where-Object { $_.CPU -gt 5 -and $_.Id -gt 1000 }
      ↓
-____________
+Sort-Object CPU -Descending
      ↓
-____________
+Select-Object -First 5
+     ↓
+Select-Object -First 5 Name, Id, CPU
 ```
 
 Indica què entra i què surt de cada etapa.
+| Etapa                      | Què entra                                                        | Què surt                                                                              |
+|----------------------------|------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+| Get-Process                | No necessita entrada del Pipeline                                | Tots els processos                                                                    |
+| 1r Where-Object            | Tots els processos                                               | Processos amb CPU superior a 5                                                        |
+| 2gna condicio Where-Object | tots els Processos amb CPU superior a 5                          | Processos amb CPU superior a 5 i  amb Id superior a 1000                              |
+|  Sort-Object               | Tots els processos amb CPU superior a 5 i amb Id superior a 1000 | Processos amb CPU superior a 5 i amb Id superior a 1000 ordenats de major a menor CPU |
+| Select-Object -First 5     | Tots els processos amb CPU superior a 5 i amb Id superior a 1000, ordenats de major a menor CPU | de la sortida anterior nomésels cinc primers processos |
+| Select-Object -First 5 Name, Id, CPU | Només els 5 primers processos amb CPU superior a 5 i amb Id superior a 1000 ordenats de majo a menor CPU | Els cinc processos, mostrant només Name, Id i CPU |
+
 
 ## 9. Detectar errors de raonament
 

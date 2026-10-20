@@ -225,7 +225,7 @@ Respon:
    
    *Mostra únicament les propietats `Name` i `Status` dels serveis que han superat el filtre.*
 
-   
+
 ## 7. Combinar condicions
 
 Crea:
@@ -238,8 +238,17 @@ Construeix filtres que mostrin:
 
 1. números entre `10` i `30` ambdós inclosos;
     
-2. números inferiors a `10` o superiors a `30`.
+    ![Ex7-1](./Captures-Powershell/Pt-06/Ex7-1.png)
 
+    *`-and` exigeix que es compleixin les dues condicions.*
+
+2. números inferiors a `10` o superiors a `30`.
+   
+   ![Ex7-2](./Captures-Powershell/Pt-06/Ex7-2.png)
+
+   *`-or` permet que es compleixi una condició o l'altra.*
+
+   
 ## 8. Pipeline complet
 
 Construeix progressivament un pipeline que:

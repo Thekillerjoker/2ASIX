@@ -12,7 +12,12 @@ Port HTTPS
 ```
 si el port és `443`.
 
+![Ex1-1](./Captures-Powershell/Pt-07/Ex1-1.png)
+
 Canvia després el valor de `$port` i comprova què passa.
+
+![Ex1-2](./Captures-Powershell/Pt-07/Ex1-2.png)
+
 ## 2. if o switch
 
 Crea:

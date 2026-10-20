@@ -132,4 +132,11 @@ User
 *Aquest ID unic és important per si dos objectes tenen el mateix nom per mai tindran el mateix ID*
 
 *Mentre l'ID sigui el mateix dona igual el que cambi que l'usuari sera el mateix per tant tot l'aplicat seguiex aplicat*
-dd
+
+
+## Active directory:
+Bosc    -\                    Domain Controler 1 -> Global catalog
+↓                            Domain Controler 2          \ musicloud.local /
+Domini -/   Domini Web
+↓           \
+Objectes     \> Controlador de domini (AD DS)

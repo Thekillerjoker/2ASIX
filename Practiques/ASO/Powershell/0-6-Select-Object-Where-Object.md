@@ -342,16 +342,30 @@ Explica amb les teves paraules:
 
 1. Per a què serveix `Select-Object`?
     
+    *Serveix per seleccionar objectes concrets o mostrar únicament les propietats que ens interesen.*
+
 2. Quina diferència hi ha entre seleccionar **objectes** i seleccionar **propietats**?
     
+    *Seleccionar objectes consisteix en escollir quins elements volem conservar, per exemple, els cinc primers processos. Seleccionar propietats consisteix en decidir quines dades volem mostrar de cada objecte, com ara `Name`, `Id` i `CPU`.*
+
 3. Quina diferència hi ha entre `Get-Member` i `Select-Object *`?
       
+    *`Get-Member` mostra els membres disponibles d'un objecte, com ara les propietats i els mètodes. En canvi, `Select-Object *` mostra els valors de totes les propietats dels objectes que rep.*
+
 4. Per a què serveix `Where-Object`?
     
+    *Serveix per filtrar objectes segons una condició i deixar passar només els que la compleixen.*
+
 5. Què representa `$_`? I `$_.CPU`?
     
+    *`$_` representa l'objecte actual que s'està processant dins del pipeline. `$_.CPU` representa el valor de la propietat `CPU` d'aquest objecte.*
+
 6. Què passa amb un objecte quan la condició de `Where-Object` retorna `True`? I quan retorna `False`?
      
+    *Si la condició retorna `True`, l'objecte passa a la següent etapa del pipeline.*
+
+    *Si retorna `False`, l'objecta queda descartat i no continua pel pipeline.*
+
 7. Explica què entra, què surt i què fa cadascuna de les etapes:
 ```
 Get-Process |
@@ -361,4 +375,24 @@ Get-Process |
     Sort-Object CPU -Descending |
     Select-Object -First 5 Name, Id, CPU
 ```
-11. Es podria millorar l'ordre anterior fent alguna operació en un altre moment del pipeline? Justifica la resposta.
+
+- *`Get-Process`: Obté tots els valors en execució.*
+- *`Where-Object`: Conserva només els processos que tenen temps de CPU superior a 10 segons i un Id superior a 1000.*
+- *`Sort-Object CPU -Descending`: ordena els processos filtrats de major a menor temps de CPU.*
+- *`Select-Object -First 5 Name, Id, CPU`: selecciona els cinc primers processos i mostra només el nom, l'identificador i el temps de CPU.*
+
+
+8.  Es podria millorar l'ordre anterior fent alguna operació en un altre moment del pipeline? Justifica la resposta.
+
+  *Sí. Podem seleccionar només les propietats necessàries abans d'ordenar, per reduir les dades que passen per les últimes etapes. També podem mantenir les dues condicions dins d'un únic Where-Object, com ja fa l'ordre original.*
+
+  **Per exemple:**
+  ```powershell
+  Get-Process |
+    Where-Object {
+        $_.CPU -gt 10 -and $_.Id -gt 1000
+    } |
+    Select-Object Name, Id, CPU |
+    Sort-Object CPU -Descending |
+    Select-Object -First 5
+```

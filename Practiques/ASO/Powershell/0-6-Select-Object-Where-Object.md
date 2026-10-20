@@ -172,13 +172,15 @@ Completa:
 
 |Valor de `$_`|Resultat de `$_ -gt 10`|Passa el filtre?|
 |---|---|---|
-|5|||
-|20|||
-|3|||
+|5|False (5 < 10)|No|
+|20|True (20 > 10)|Si|
+|3|False (3 < 10)|No|
 
 Explica amb les teves paraules:
 
 **Què representa** `$_`**?**
+
+*`$_` representa l'element actual que s'està comprovant dins del `Where-Object`. En aquest cas, representa cada número de l'array: Primer és el 5, després el 20 i finalment el 3, però només passen el filtre els números que són més grans que 10.*
 
 ## 6. Filtrar objectes per propietats
 

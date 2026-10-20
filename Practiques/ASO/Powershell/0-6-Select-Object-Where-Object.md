@@ -199,18 +199,33 @@ Name
 Status
 ```
 
+![Ex6-1](./Captures-Powershell/Pt-06/Ex-6-1.png)
+
+
 Després construeix-ne un altre que mostri els serveis que **no** estan en execució.
+
+![Ex6-2](./Captures-Powershell/Pt-06/Ex-6-2.png)
+
 
 Respon:
 
 1. Què representa `$_`?
     
+    *L'objecte del servei que s'està comprovant.*
+
 2. Què representa `$_.Status`?
     
+    *La propietat `Status` del servei actual, que indica si està en execució o aturat, entre altres estats.*
+
 3. Què fa `Where-Object` amb els objectes que no compleixen la condició?
     
-4. Què fa després `Select-Object`?
+    *Els descarta i no els passa a la seegüent etapa del pipeline.*
 
+4. Què fa després `Select-Object`?
+   
+   *Mostra únicament les propietats `Name` i `Status` dels serveis que han superat el filtre.*
+
+   
 ## 7. Combinar condicions
 
 Crea:

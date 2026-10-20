@@ -140,3 +140,10 @@ Bosc    -\                    Domain Controler 1 -> Global catalog
 Domini -/   Domini Web
 ↓           \
 Objectes     \> Controlador de domini (AD DS)
+
+DC = Local    ) 
+DC = musicloud) ->Distinguished Name
+OU = Direccio ) ->
+CN = Laia     )
+
+![Mi dibujo](./esquema.svg)

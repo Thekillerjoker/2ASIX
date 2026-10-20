@@ -327,6 +327,15 @@ L'ordre funciona.
 
 **Resol correctament el problema? Justifica la resposta i corregeix-la.**
 
+*No. Encara que l'ordre funciona, no resol correctament el problema ha que primer selecciona cinc processos sense ordenar-los. Després ordena només aquests cinc, de manera que no garanteix obtenir els cinc processos amb més temps de CPU acumulat de tot el sistema.*
+
+**Correció:**
+
+```powershell
+Get-Process | Sort-Object CPU -Descending | Select-Object -First 5
+```
+
+
 # 10. Conclusions
 
 Explica amb les teves paraules:

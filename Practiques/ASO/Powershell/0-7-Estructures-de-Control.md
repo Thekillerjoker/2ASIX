@@ -63,6 +63,12 @@ Servei disponible
 
 només quan el port sigui el 443 i estigui actiu
 
+![Ex3-1](./Captures-Powershell/Pt-07/Ex-3-1.png)
+
+
+*`-eq` comprova si un valor és igual a un altre, `-and` exigeix que les dues condicions siguin certes.*
+
+
 ## 7. Objectes
 
 Quants serveis en el teu sistema estan configurats amb el servei d'arrencada automàtic quan s'inicia l'equip? 

@@ -36,6 +36,17 @@ qualsevol altre valor → Estat desconegut
 
 Resol el problema utilitzant `if` i `switch`. Compara les dues solucions. 
 
+![Ex2-1](./Captures-Powershell/Pt-07/Ex2-1.png)
+
+![Ex2-2](./Captures-Powershell/Pt-07/Ex2-2.png)
+
+Comparació
+
+- *`if` permet comprovar condicions i combinar-les, per exemple amb `-and` o `-or`.*
+- *`switch` és més còmode quan has de comparar una variable amb diversos valors posibles*
+
+
+
 ## 4. Condicions combinades
 
 Crea:

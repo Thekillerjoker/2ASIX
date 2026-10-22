@@ -75,9 +75,29 @@ Quants serveis en el teu sistema estan configurats amb el servei d'arrencada aut
 
 Proposa diferents codis de resolució.
 
+**Solució 1: *amb `Where-Object` i `Measure-Object`.***
+
+![Ex4-1](./Captures-Powershell/Pt-07/Ex-4-1.png)
+
+*El resultat mostra el nombre de serveis que tenen l'arrencada automàtica, a la propietat `Count`.*
+
+**Solució 2: *guardant el resultat en una variable.***
+
+![Ex4-2](./Captures-Powershell/Pt-07/Ex-4-2.png)
+
+*Aquesta solució guarda tots els serveis a `$serveis`, filtra els automàtis i compta els resultats.*
+
+**Solució 3: *mostrant només el recompte.***
+
+![Ex4-3](./Captures-Powershell/Pt-07/Ex-4-3.png)
+
+*Aquesta solució obté tots els serbeis, filtra el que tenen l'arrencada automàtica i compta directament els resultats amb `.Count`, sense guardarla en una variable.*
+
+
 # Conclusions
 
 Explica amb les teves paraules:
+
 
 1. Què representa la variable `$servei` en:
 ```powershell
@@ -86,5 +106,23 @@ foreach ($servei in $serveis) {
     ...
 }
 ```
+
+*`$servei` és la variable que representa cada servei individual de la col·lecció `$serveis`. A cada iteració del bucle, conté un servei diferent.*
+
 2. Quina diferència hi ha entre `foreach` i `ForEach-Object`?
+   
+   - *`foreach` recorre els elements d'una col·leció que ja tens en una variable.*
+   - *`ForEach-Object` processa cada objecte que rep a través del pipeline.*
+  
 3. Què representa `$_` dins de `ForEach-Object`?
+   
+   *`$_` representa l'objecte actual que s'està processant al pipeline. En aquest exemple, representa cada servei que retorna `Get-Service`.*
+
+```powershell
+   Get-Service | ForEach-Object {
+        Write-Output $_.Name
+   }
+
+```
+*`$_.Name` accedeix a la propietat `Name` del servei actual i mostra el seu nom.*
+

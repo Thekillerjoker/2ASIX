@@ -59,7 +59,28 @@ Data: ...
 Directori actual: ...
 ```
 1. Adjunta el script final.
+
+![Ex1-2](./Captures-Powershell/Pt-08/Ex1-2.png)
+
+![Ex1-3](./Captures-Powershell/Pt-08/Ex1-3.png)
+
+
 2. Explica el procés que has seguit o operacions que has executat abans d'obtenir el script final.
+
+*Primer, he provat les ordres al powershell per comprovar que funcionaven correctament i que obtenien la informació necessària.*
+
+![Ex1-1](./Captures-Powershell/Pt-08/Ex1-1.png)
+
+*Com és pot veure a l'imatge he executat les següents comandes:*
+- *`$env:COMPUTERNAME`: Per obtenir el nom de l'equip.*
+- *`[System.Security.Principal.WindowsIdentity]::GetCurrent().Name`: Per obtenir l'usuari actual.*
+- *`$PSVersionTable.PSVersion`: Per consultar la versió de PowerShell.*
+- *`Get-date`: Per obtenir la data i l'hora actual.*
+- *`Get-Location`: Per consultar el directori actual.*
+
+*Després d'haber comprovat els resultats , he crat l'arxiu infoSistema.ps1 , i he creat l'escript guardant cada comanda en una variable i despres he utilitzat Write-Output per mostrar tota la informacio de manera ordenada.*
+
+   
 # 2. Estat dels serveis
 
 Crea:

@@ -112,6 +112,28 @@ Running: 95
 Not running: 135
 ```
 
+1. Adjunta el script final.
+
+![Ex2-2](./Captures-Powershell/Pt-08/Ex2-2.png)
+
+![Ex2-3](./Captures-Powershell/Pt-08/Ex2-3.png)
+
+
+2. Explica el procés que has seguit o operacions que has executat abans d'obtenir el script final.
+
+*Primer, he provat les ordres al powershell per comprovar que funcionaven correctament i que obtenien la informació necessària.*
+
+![Ex2-1](./Captures-Powershell/Pt-08/Ex2-1.png)
+
+*Com és pot veure a l'imatge he executat les següents comandes:*
+- *`Get-Service`: Per obtenir els serveis del sistema.*
+- *`$serveis.Count`: Per comptar el nombre total de serveis*
+- *`$PSVersionTable.PSVersion`: Per consultar la versió de PowerShell.*
+- *`Get-date`: Per obtenir la data i l'hora actual.*
+- *`Get-Location`: Per consultar el directori actual.*
+
+*Després d'haber comprovat els resultats , he crat l'arxiu infoSistema.ps1 , i he creat l'escript guardant cada comanda en una variable i despres he utilitzat Write-Output per mostrar tota la informacio de manera ordenada.*
+
 # 3. Processos amb més consum de CPU
 
 Crea:

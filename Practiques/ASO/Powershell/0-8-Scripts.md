@@ -157,6 +157,30 @@ Després mostra també:
 ```
 Nombre total de processos: ...
 ```
+
+1. Adjunta el script final:
+
+![Ex3-1](./Captures-Powershell/Pt-08/Ex3-2.png)
+
+![Ex3-3](./Captures-Powershell/Pt-08/Ex3-3.png)
+
+![Ex3-3-2](./Captures-Powershell/Pt-08/Ex3-3-2.png)
+
+
+2. Explica el procés que has seguit o operacions que has executat abans d'obtenir el script final.
+
+*Primer, he provat les ordres al powershell per comprovar que funcionaven correctament i que obtenien la informació necessària.*
+
+![Ex3-2](./Captures-Powershell/Pt-08/Ex3-1.png)
+
+![Ex3-2-1](./Captures-Powershell/Pt-08/Ex3-1-2.png)
+
+*Com és pot veure a l'imatge he executat les següents comandes:*
+- *`processos = Get-Process`: Una variable la cual obte els processos que s'estan executant.*
+- *`$processos.Count`: Executa la variable i compta el total de processos que s'estan executant.*
+- *`Sort-Object CPU -Descending`: Ordena tots els processos de major a menor temps de CPU acumulat.*
+- *`Select-Object -First 10 Name, Id, CPU`: Selecciona els 10 primers i mostra únicament aquestes tres propietats.*
+
 # 4. Anàlisi de fitxers d'una carpeta
 
 Crea:

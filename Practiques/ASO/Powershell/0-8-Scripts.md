@@ -210,7 +210,9 @@ i utilitza-les per construir el pipeline.
 
 > Tingues en compte que pots trobar tant fitxers com carpetes.
 
-
+1. Adjunta el script final:
+   
+2. Explica el procés que has seguit o operacions que has executat abans d'obtenir el script final.
 # 5. Diagnosi bàsica del sistema
 
 Crea:

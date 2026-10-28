@@ -212,7 +212,33 @@ i utilitza-les per construir el pipeline.
 
 1. Adjunta el script final:
    
+   ![Ex4-2](./Captures-Powershell/Pt-08/Ex4-2.png)
+
+   ![Ex4-3](./Captures-Powershell/Pt-08/Ex4-3.png)
+
 2. Explica el procés que has seguit o operacions que has executat abans d'obtenir el script final.
+
+*Primer, he provat les ordres al powershell per comprovar que funcionaven correctament i que obtenien la informació necessària.*
+
+![Ex4-1](./Captures-Powershell/Pt-08/Ex4-1.png)
+
+
+
+*Com és pot veure a l'imatge he executat les següents comandes:*
+
+- *`Get-Location`: Mostra el directori actual.*
+- *`Get-ChildItem`: Obté els elements de la carpeta, incloent-hi fitxers i directoris.*
+- *`Get-ChildItem -File`: Obté només els fitxers, sense les carpetes.*
+- *`Sort-Object Lenght -Descending`: Ordena els fitxers de més grans a més petits.*
+
+![Ex4-1-2](./Captures-Powershell/Pt-08/Ex4-1-2.png)
+
+*En aquesta imatge es l'ultima comanda que he comprovat però he fet dues captures ja que no hi cabia tot en una sola captura.*
+
+- *`Select-Object -First 5 Name, Lenght`: Selecciona els cinc primers fitxers després d'ordenar-los i mostra només , el nom del fixer i la seva mida en bytes.*
+
+
+
 # 5. Diagnosi bàsica del sistema
 
 Crea:

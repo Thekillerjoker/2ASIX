@@ -35,13 +35,72 @@ La configuració IP concreta dependrà de la xarxa del laboratori. Anoteu els va
 
 Completeu la taula següent:
 
-| Paràmetre        | Valor configurat |
-| ---------------- | ---------------- |
-| Adreça IP        |                  |
-| Màscara          |                  |
-| Porta d’enllaç   |                  |
-| DNS preferit     |                  |
-| Nom del servidor |                  |
+| Paràmetre        | Valor configurat                            |
+| ---------------- | ------------------------------------------- |
+| Adreça IP        | 192.168.1.10                                |
+| Màscara          | 255.255.255.0 és ha dir /24                 |
+| Porta d’enllaç   | 192.168.1.10                                |
+| DNS preferit     | 192.168.1.10                                |
+| Nom del servidor | `SRV-AD-01`                                 |
+
+1. **Canviem el hostname del servidor:**
+*Per canviar el hostname del servidor hem d'utilitzar la següent comanda:*
+```powershell
+Rename-Computer -NewName "NomDesitjat" -Restart
+```
+
+![Canviar-Hostname](./Captures/Canvi-Hostname.png)
+
+2. **Configurar la IP fixa de la xarxa del domini:**
+
+*Per configurar una IP fixa a la xarxa del domini hem d'executar les següents comandes:*
+```powershell
+//Abans de configurar com en aquest cas tenim dues interficies de xarxa hemd e saber a quina hem de aplicar la configuració, i ho farem amb ipconfig /all i miran el nom de l'interficie que volem hem de configurar.' Després ja podem executar la comanda per configurar.
+New-NetIPAddress `
+-InterfaceAlias "Nom de l'interficie" `
+-IPAddress "IP fixa desitjada" `
+-PrefixLength 24
+```
+
+![Configuració-IP](./Captures/Configuracio-IP.png)
+
+3. **Configurar DNS:**
+
+*Per configurar el DNS a l'interfície del domini és fa amb la següent comanda:*
+
+```powershell
+Set-DnsClientServerAddress `
+-InterfaceAlias "Nom de l'interfície del domini" `
+-ServerAddresses "IP del servidor"
+```
+
+![Configurar-DNS](./Captures/Configuracio-DNS.png)
+
+![Comprovacio-DNS](./Captures/Comprovar-DNS.png)
+
+4. **Configurar la zona horària:**
+
+*Per configurar la zona horària es fa amb la següent comanda:*
+
+```powershell
+Set-TimeZone -Id "Romance Standard Time"
+
+//Per comprovar que la zona horària és correcta és fa amb la següent comanda.
+Get-TimeZone
+```
+
+![Configurar-ZonaHoraria](./Captures/Zona-Horaria.png)
+
+5. **Comprovar que l'hora es correcta:**
+
+*Per comprovar que l'hora és la correcta és fa amb la següent comanda:*
+
+```powershell
+Get-Date
+```
+
+![Comprovar-Hora](./Captures/Hora-Sistema.png)
+
 ### Part 2. Instal·lació del rol AD DS
 
 Localitzeu i utilitzeu el procediment adequat per instal·lar el rol AD DS i promocionar el servidor a controlador de domini. Documenteu breument les comandes o passos utilitzats.

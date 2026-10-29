@@ -32,6 +32,7 @@ Configureu el servidor perquè compleixi els requisits següents:
 | Hora del sistema  | correcta           |
 La configuració IP concreta dependrà de la xarxa del laboratori. Anoteu els valors utilitzats.
 
+
 Completeu la taula següent:
 
 | Paràmetre        | Valor configurat |

@@ -105,6 +105,23 @@ Get-Date
 
 Localitzeu i utilitzeu el procediment adequat per instal·lar el rol AD DS i promocionar el servidor a controlador de domini. Documenteu breument les comandes o passos utilitzats.
 
+1. *Per instalar el rol AD DS és fa amb la següent comanda:*
+
+```powershell
+Install-WindowsFeature AD-Domain-Services -IncludeManagementTools
+```
+
+![Instalació-AD-DS](./Captures/Instalar-Rol-AD-DS.png)
+
+2. *Una vegada hem instal·lat el rol AD DS o hem de comprovar que s'ha instalat correctament amb la següent comanda:*
+
+```powershell
+Get-WindowsFeature AD-Domain-Services
+```
+
+![Comprovació-Instalaió-AD-DS](./Captures/Comprovar-AD-Instalat.png)
+
+
 ### Part 3. Promoció a controlador de domini
 Promocioneu el servidor a controlador de domini amb les opcions següents:
 

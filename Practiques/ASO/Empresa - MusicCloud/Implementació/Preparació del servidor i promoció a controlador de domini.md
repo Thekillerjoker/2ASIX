@@ -135,6 +135,10 @@ Promocioneu el servidor a controlador de domini amb les opcions següents:
 | Controlador de domini de només lectura | No                 |
 | Reinici final                          | Sí                 |
 Definiu una contrasenya segura per al mode de restauració de serveis de directori.
+
+![Creacio-Bosc](./Captures/Creacio-BOSC.png)
+
+
 ### Part 4. Verificació
 
 Després del reinici, comproveu:

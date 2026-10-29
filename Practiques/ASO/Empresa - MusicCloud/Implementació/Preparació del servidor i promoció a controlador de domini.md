@@ -145,14 +145,24 @@ Després del reinici, comproveu:
 
 1. Que el servidor s’anomena `SRV-AD-01`.
     
+    ![Comprovar-Hostname](./Captures/Comprovar-Hostname.png)
+
 2. Que el domini `musiccloud.local` existeix.
     
+    ![Comprovar-musiccloud.local-Existeix](./Captures/Comprovar-domini.png)
+
 3. Que el servidor és controlador de domini.
     
+    ![Comprovar-Controlador-Domini](./Captures/Comprovacio-Controlador-Domini.png)
+
 4. Que el servei DNS està instal·lat.
     
+    ![Comprovar-DNS-Instalat](./Captures/Comprovar-DNS-Instalat.png)
+
 5. Que el DNS resol correctament el domini.
     
+    ![Comprovar-Resolució-Correcta](./Captures/Comprovar-DNS-Resolucio.png)
+
     
 Completeu la taula següent. Adjunta la comanda que has utilitzat per a cada una de les comprovacions.
 

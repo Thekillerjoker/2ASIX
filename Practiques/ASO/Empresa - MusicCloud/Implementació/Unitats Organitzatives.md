@@ -37,6 +37,9 @@ MusicCloud
 ```
 Aquesta UO serà el contenidor principal de l’estructura de l’empresa.
 
+![Part-1](./Captures/Unitats-Organitzatives/Part-1.png)
+
+
 ## Part 2. Creació de les UO de primer nivell
 
 Dins de la UO `MusicCloud`, creeu les UO següents:
@@ -45,6 +48,10 @@ Usuaris
 Equips
 Grups
 ```
+
+![Part-2](./Captures/Unitats-Organitzatives/Part-2.png)
+
+
 ## Part 3. Creació de les UO de departaments
 
 Dins de la UO `Usuaris`, creeu les UO següents:
@@ -55,6 +62,10 @@ Desenvolupament
 Sistemes
 Direccio
 ```
+
+![Part-3](./Captures/Unitats-Organitzatives/Part-3.png)
+
+
 ## Part 4. Creació de les UO d’equips
 
 Dins de la UO `Equips`, creeu les UO següents:

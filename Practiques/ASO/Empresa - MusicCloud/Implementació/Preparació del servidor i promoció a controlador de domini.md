@@ -166,15 +166,21 @@ Després del reinici, comproveu:
     
 Completeu la taula següent. Adjunta la comanda que has utilitzat per a cada una de les comprovacions.
 
-| Comprovació                          | Resultat |
-| ------------------------------------ | -------- |
-| Nom del servidor                     |          |
-| IP fixa configurada                  |          |
-| AD DS instal·lat                     |          |
-| Domini creat                         |          |
-| DNS instal·lat                       |          |
-| Resolució de `musiccloud.local`      |          |
-| Eines d’Active Directory disponibles |          |
+*Ja he adjuntat una captura de les comandes que he utilitzat per a cada una de les comprovacions en la part de verificació.* 
+
+| Comprovació                                                                      | Resultat                     |
+| ---------------------------------------------------------------------------------|------------------------------|
+| Nom del servidor   `Hostname`                                                    | `SRV-AD-01`                  |
+| IP fixa configurada    `Get-NetIPConfiguration`                                  | 192.168.1.10                 |
+| AD DS instal·lat  `Get-WindowsFeature AD-Domain-Services`                        | `Installed`                  |
+| Domini creat      `Get-ADDomain`                                                 | `musiccloud.local`           |
+| DNS instal·lat   `Get-WindowsFeature DNS`                                        | `Installed`                  |
+| Resolució de DNS `Resolve-DnsName musiccloud.local`                              | `Resolució correcta`         |
+| Eines d’Active Directory disponibles `Get-Module -ListAvailable ActiveDirectory` | `Modul disponible`           |
+
+
+![Eines-AD](./Captures/Moduls-AD.png)
+
 
 ## Preguntes
 
@@ -182,7 +188,11 @@ Responeu breument:
 
 1. Per què `SRV-AD-01` necessita una IP fixa?
     
+    *Perquè els clients i els serveis del domini han de poder localitzar el controlador de domini i el servidor DNS mitjançant una adreça IP estable.*
+
 2. Per què és necessari DNS en un domini Active Directory?
+    
+    *Perquè Active Directory utilitza DNS per localitzar contorladors de domini i serveis com LDAP i Kerberos, necessaris per a l'autenticació i l'adminsitració del domini.*
     
 3. Quina diferència hi ha entre instal·lar AD DS i promocionar el servidor a controlador de domini?
     

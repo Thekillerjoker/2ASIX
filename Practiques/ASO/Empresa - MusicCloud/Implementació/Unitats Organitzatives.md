@@ -73,6 +73,10 @@ Dins de la UO `Equips`, creeu les UO següents:
 Clients
 Servidors
 ```
+
+![Part-4](./Captures/Unitats-Organitzatives/Part-4.png)
+
+
 ## Part 5. Verificació
 
 Executeu una consulta que mostri totes les unitats organitzatives del domini.

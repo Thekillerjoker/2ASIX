@@ -106,11 +106,32 @@ Responeu breument:
 4. Per què no és recomanable deixar tots els usuaris dins del contenidor `Users`?  
    
    *El contenidor `Users` per defecte no és la UO, per la qual cosa no admet l'aplicació de GPOs. a més tots els comptes dificulta enormement la seguretat i l'administració de l'entorn.*
-   
+
 
 ## Part 7. Creació scripts
 
 - 7.1. Crea un script per eliminar totes les OUs creades en la pràctica
+  
+  ![Part-7-SCR-1](./Captures/Unitats-Organitzatives/Part-7-scr-1.png)
+
+  ![Part-7-SCR-1-2](./Captures/Unitats-Organitzatives/Part-7-scr-1-2.png)
+
 - 7.2. Crea un script que crei l'OU principal (musiccloud).
+  
+  ![Part-7-SCR-2](./Captures/Unitats-Organitzatives/Part-7-scr-2.png)
+
+  ![Part-7-SCR-2-2](./Captures/Unitats-Organitzatives/Part-7-scr-2-2.png)
+
 - 7.3. Crea un script que crei l'OU principal i les OUs descendents: Usuaris, Equips i Grups
+  
+  ![Part-7-SCR-3](./Captures/Unitats-Organitzatives/Part-7-scr-3.png)
+
+  ![Part-7-SCR-3-2](./Captures/Unitats-Organitzatives/Part-7-scr-3-2.png)
+
 - 7.4. Crea un script que creï l'OU principal si no existeix i que creï únicament les UO descendents que encara no existeixin. El script s'ha de poder executar més d'una vegada sense generar errors ni duplicar objectes.
+
+![Part-7-SCR-4](./Captures/Unitats-Organitzatives/Part-7-scr-4.png)
+
+![Part-7-SCR-4-2](./Captures/Unitats-Organitzatives/Part-7-scr-4-2.png)
+
+

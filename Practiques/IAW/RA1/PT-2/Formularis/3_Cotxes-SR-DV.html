@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulari de cotxes</title>
+</head>
+<body>
+
+    <h1>Afegir un cotxe</h1>
+
+    <form action="3_Cotxes-SR-DV.php" method="post">
+
+        <label for="marca">Marca:</label>
+        <input type="text" id="marca" name="marca" required>
+        <br><br>
+
+        <label for="model">Model:</label>
+        <input type="text" id="model" name="model" required>
+        <br><br>
+
+        <label for="any">Any:</label>
+        <input type="number" id="any" name="any"
+               min="1886" step="1" required>
+        <br><br>
+
+        <h3>Versions del cotxe</h3>
+
+        <label for="versio1">Versió 1:</label>
+        <input type="text" id="versio1" name="versions[]"
+               placeholder="Ex.: gasolina">
+        <br><br>
+
+        <label for="versio2">Versió 2:</label>
+        <input type="text" id="versio2" name="versions[]"
+               placeholder="Ex.: dièsel">
+        <br><br>
+
+        <label for="versio3">Versió 3:</label>
+        <input type="text" id="versio3" name="versions[]"
+               placeholder="Ex.: híbrid">
+        <br><br>
+
+        <button type="submit">Afegir cotxe</button>
+
+    </form>
+
+</body>
+</html>
+

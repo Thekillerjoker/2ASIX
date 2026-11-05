@@ -371,3 +371,4 @@ incorpora-la al script
         ↓
 executa el script complet
 ```
+d
